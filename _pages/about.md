@@ -54,15 +54,18 @@ Facts about Quincy
       <td style="text-align:center">The Blue Danube</td>
       <td style="text-align:center">Wedding Day</td>
     </tr>
+
     <tr>
       <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
-      <img src="images/radetzky_march.png" value="PLAY" onclick="getVolume('radetzky_march')">
+      <img src="images/radetzky_march.png">
+      <button onclick="getVolume('radetzky_march')">Volume</button>
       <button onclick="play_music('radetzky_march')">Play</button> 
       <button onclick="pause_music('radetzky_march')">Pause</button> 
       <button onclick="up_volumne('radetzky_march')">Vol +</button> 
       <button onclick="down_volumne('radetzky_march')">Vol -</button> 
       </div>
+
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="getVolume('place_called_you')">Volume</button>
@@ -71,6 +74,7 @@ Facts about Quincy
       <button onclick="up_volumne('place_called_you')">Vol +</button> 
       <button onclick="down_volumne('place_called_you')">Vol -</button> 
       </div>
+
       <td><audio id="blue_danube" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="getVolume()">Volume</button>
@@ -79,6 +83,7 @@ Facts about Quincy
       <button onclick="up_volumne()">Vol +</button> 
       <button onclick="down_volumne()">Vol -</button> 
       </div>
+
       <td><audio id="wedding_day" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="getVolume('blue_danube')">Volume</button>
@@ -88,40 +93,40 @@ Facts about Quincy
       <button onclick="down_volumne('blue_danube')">Vol -</button> 
       </div>
     </tr>
-
-    <script>
-    function get_audio_id(audio_id_name) {
-      const vid_list = []
-      vid = document.getElementById(audio_id_name)
-      return vid
-    }
-
-    function getVolume(audio_id_name) { 
-      vid = get_audio_id(audio_id_name)
-      alert(vid.volume);
-    } 
-
-    function play_music(audio_id_name) { 
-      vid = get_audio_id(audio_id_name)
-      vid.play();
-    } 
-      
-    function pause_music(audio_id_name) { 
-      vid = get_audio_id(audio_id_name)
-      vid.pause();
-    } 
-      
-    function up_volumne(audio_id_name) { 
-      vid = get_audio_id(audio_id_name)
-      vid.volume = parseFloat(vid.volume)+0.1;
-    } 
-
-    function down_volumne(audio_id_name) { 
-      vid = get_audio_id(audio_id_name)
-      vid.volume = parseFloat(vid.volume)-0.1;
-    } 
-    </script> 
   </table>
+  
+  <script>
+  function get_audio_id(audio_id_name) {
+    vid = document.getElementById(audio_id_name)
+    return vid
+  }
+
+  function getVolume(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    alert(vid.volume);
+  } 
+
+  function play_music(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.play();
+  } 
+    
+  function pause_music(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.pause();
+  } 
+    
+  function up_volumne(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.volume = parseFloat(vid.volume)+0.1;
+  } 
+
+  function down_volumne(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.volume = parseFloat(vid.volume)-0.1;
+  } 
+  </script> 
+  
 
 <table>
 <caption>Musical Instruments Quincy Could Play</caption>
