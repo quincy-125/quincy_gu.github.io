@@ -19,14 +19,14 @@ Facts about Quincy
 
   <table>
     <tr>
-      <td>Traveler</td>
-      <td>Foody</td>
-      <td>Neerdy</td>
+      <td style="text-align:center">Traveler</td>
+      <td style="text-align:center">Foody</td>
+      <td style="text-align:center">Neerdy</td>
     </tr>
     <tr>
-      <td><img src="images/traveler.gif" width=270 height=480></td>
-      <td><img src="images/foody.gif" width=270 height=480></td>
-      <td><img src="images/nerd.gif" width=270 height=480></td>
+      <td><img style="display:block;" src="images/traveler.gif" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/foody.gif" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/nerd.gif" width="100%" height="100%"></td>
     </tr>
   </table>
 
@@ -34,45 +34,45 @@ Facts about Quincy
 
   <table>
     <tr>
-      <td>Overwork but Underpaid</td>
-      <td>Always in Stress Mode</td>
-      <td>Anxiety</td>
-      <td>Imposter Syndrome</td>
+      <td style="text-align:center">Overwork but Underpaid</td>
+      <td style="text-align:center">Always in Stress Mode</td>
+      <td style="text-align:center">Anxiety</td>
+      <td style="text-align:center">Imposter Syndrome</td>
     </tr>
     <tr>
-      <td><img src="images/overwork_underpaid.gif" width=270 height=480></td>
-      <td><img src="images/stress_mode.gif" width=270 height=480></td>
-      <td><img src="images/anxiety.gif" width=270 height=480></td>
-      <td><img src="images/imposter_syndrome.gif" width=270 height=480></td>
+      <td><img style="display:block;" src="images/overwork_underpaid.gif" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/stress_mode.gif" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/anxiety.gif" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/imposter_syndrome.gif" width="100%" height="100%"></td>
     </tr>
   </table>
 
   <table>
     <tr>
-      <td>Overthinking</td>
-      <td>A Caffeine Addict</td>
-      <td>Fatigue</td>
-      <td>Nobody Cares About Your Ph.D. But You</td>
+      <td style="text-align:center">Overthinking</td>
+      <td style="text-align:center">A Caffeine Addict</td>
+      <td style="text-align:center">Fatigue</td>
+      <td style="text-align:center">Nobody Cares About Your Ph.D. But You</td>
     </tr>
     <tr>
-      <td><img src="images/overthink.gif" width=270 height=480></td>
-      <td><img src="images/caffeine_addict.gif" width=270 height=480></td>
-      <td><img src="images/fatigue.gif" width=270 height=480></td>
-      <td><img src="images/who_cares.gif" width=270 height=480></td>
+      <td><img style="display:block;" src="images/overthink.gif" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/caffeine_addict.gif" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/fatigue.gif" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/who_cares.gif" width="100%" height="100%"></td>
     </tr>
   </table>
 
 
 Research & Life Partners
 ======
-* Leena, Female, [Pembroke Welsh Corgi](https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi), born in June 2021
-<table>
-    <tr>
-      <td>Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>, born in June 2021</td>
-      <td>Girlfriend, Female, Pending, birth date currently is not available</td>
-    </tr>
-    <tr>
-      <td><img src="images/leena.png" width=270 height=480></td>
-      <td><img src="images/kiss_love.gif" width=270 height=480></td>
-    </tr>
-  </table>
+
+  <table>
+      <tr>
+        <td style="text-align:center">Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>, born in June 2021</td>
+        <td style="text-align:center">Girlfriend, Female, Pending, birth date currently is not available</td>
+      </tr>
+      <tr>
+        <td><img style="display:block;" src="images/leena.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/kiss_love.gif" width="100%" height="100%"></td>
+      </tr>
+    </table>
