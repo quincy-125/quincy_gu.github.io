@@ -19,30 +19,35 @@ Facts about Quincy
   * Quincy is a Traveling Lover & a Foody:
   ![traveler](images/traveler.gif) ![foody](images/foody.gif)
 * Quincy is Also a Ph.D. Candidate with the Following Personality Traits:
-<table>
-  <tr>
-    <td>Overwork but Underpaid</td>
-     <td>Always in Stress Mode</td>
-     <td>Anxiety</td>
-  </tr>
-  <tr>
-    <td><img src="images/overwork_underpaid.gif" width=270 height=480></td>
-    <td><img src="images/stress_mode.gif" width=270 height=480></td>
-    <td><img src="images/anxiety.gif" width=270 height=480></td>
-  </tr>
- </table>
-  <!-- * Overwork but Underpaid
-  * Always in Stress Mode
-  * Anxiety
-  ![underpaid](images/overwork_underpaid.gif) ![stress](images/stress_mode.gif) ![anxiety](images/anxiety.gif) -->
-  <!-- * Imposter Syndrome
-  * Overthinking
-  ![imposter](images/imposter_syndrome.gif) ![overthink](images/overthink.gif)
-  * A Caffeine Addict
-  * Fatigue
-  ![caffeine](images/caffeine_addict.gif) ![fatigue](images/fatigue.gif)
-  * Nobody Cares About Your Ph.D. But You
-  ![who cares](images/who_cares.gif) -->
+  <table>
+    <tr>
+      <td>Overwork but Underpaid</td>
+      <td>Always in Stress Mode</td>
+      <td>Anxiety
+      <td>Imposter Syndrome</td>
+    </tr>
+    <tr>
+      <td><img src="images/overwork_underpaid.gif" width=200 height=340></td>
+      <td><img src="images/stress_mode.gif" width=200 height=340></td>
+      <td><img src="images/anxiety.gif" width=200 height=340>
+      <td><img src="images/imposter_syndrome.gif" width=200 height=340></td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td>Overthinking</td>
+      <td>A Caffeine Addict</td>
+      <td>Fatigue
+      <td>Nobody Cares About Your Ph.D. But You</td>
+    </tr>
+    <tr>
+      <td><img src="images/overthink.gif" width=200 height=340></td>
+      <td><img src="images/caffeine_addict.gif" width=200 height=340></td>
+      <td><img src="images/fatigue.gif" width=200 height=340>
+      <td><img src="images/who_cares.gif" width=200 height=340></td>
+    </tr>
+  </table>
 
 Research & Life Partners
 ======
