@@ -56,11 +56,81 @@ Facts about Quincy
       <td style="text-align:center">Wedding Day</td>
     </tr>
     <tr>
-      <td><audio controls autoplay> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
-      <td><audio controls autoplay> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
-      <td><audio controls autoplay> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
-      <td><audio controls autoplay> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
+      <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
+      <div> 
+      <button onclick="getVolume()">Volume</button>
+      <button onclick="play_music()">Play</button> 
+      <button onclick="pause_music()">Pause</button> 
+      <button onclick="up_volumne()">Vol +</button> 
+      <button onclick="down_volumne()">Vol -</button> 
+      </div>
+      <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
+      <div> 
+      <button onclick="getVolume()">Volume</button>
+      <button onclick="play_music()">Play</button> 
+      <button onclick="pause_music()">Pause</button> 
+      <button onclick="up_volumne()">Vol +</button> 
+      <button onclick="down_volumne()">Vol -</button> 
+      </div>
+      <td><audio id="blue_danube" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
+      <div> 
+      <button onclick="getVolume()">Volume</button>
+      <button onclick="play_music()">Play</button> 
+      <button onclick="pause_music()">Pause</button> 
+      <button onclick="up_volumne()">Vol +</button> 
+      <button onclick="down_volumne()">Vol -</button> 
+      </div>
+      <td><audio id="wedding_day" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
+      <div> 
+      <button onclick="getVolume()">Volume</button>
+      <button onclick="play_music()">Play</button> 
+      <button onclick="pause_music()">Pause</button> 
+      <button onclick="up_volumne()">Vol +</button> 
+      <button onclick="down_volumne()">Vol -</button> 
+      </div>
     </tr>
+
+    <script>
+    var radetzky_march = document.getElementById("radetzky_march");
+    var place_called_you = document.getElementById("place_called_you");
+    var blue_danube = document.getElementById("blue_danube");
+    var wedding_day = document.getElementById("wedding_day");
+
+    function getVolume() { 
+      alert(radetzky_march.volume);
+      alert(place_called_you.volume);
+      alert(blue_danube.volume);
+      alert(wedding_day.volume);
+    } 
+
+    function play_music() { 
+      radetzky_march.play();
+      radetzky_march.play();
+      blue_danube.play();
+      wedding_day.play();
+    } 
+      
+    function pause_music() { 
+      radetzky_march.pause();
+      place_called_you.pause();
+      blue_danube.pause();
+      wedding_day.pause();
+    } 
+      
+    function up_volumne() { 
+      radetzky_march.volume = parseFloat(radetzky_march.volume)+0.1;
+      place_called_you.volume = parseFloat(place_called_you.volume)+0.1;
+      blue_danube.volume = parseFloat(blue_danube.volume)+0.1;
+      wedding_day.volume = parseFloat(wedding_day.volume)+0.1;
+    } 
+
+    function down_volumne() { 
+      radetzky_march.volume = parseFloat(radetzky_march.volume)-0.1;
+      place_called_you.volume = parseFloat(place_called_you.volume)-0.1;
+      blue_danube.volume = parseFloat(blue_danube.volume)-0.1;
+      wedding_day.volume = parseFloat(wedding_day.volume)-0.1;
+    } 
+  </script> 
   </table>
 
 <table>
