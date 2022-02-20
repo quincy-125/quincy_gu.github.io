@@ -7,8 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-[welcome](musics/main_site_song.mp3)  
+ 
 Qiangqiang(Quincy) Gu is a Ph.D. candidate in [biomathematics](https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology), [bioinformatics](https://en.wikipedia.org/wiki/Bioinformatics), and [computational biology](https://en.wikipedia.org/wiki/Computational_biology) trained jointly by the [University of Minnesota - Twin Cities](https://twin-cities.umn.edu) and the [Mayo Clinic Graduate School of Biomedical Sciences](https://college.mayo.edu). He also holds a bachelor degree from the [University of Minnesota - Twin Cities in mathematics](https://cse.umn.edu/math). 
 With primary interests in medicine and engineering, Quincy served as an undergraduate research assistant at the [University of Minnesota Medical School](https://med.umn.edu), where he did research on [colorectal cancer](https://www.cdc.gov/cancer/colorectal/basic_info/what-is-colorectal-cancer.htm) patients [survival analysis](https://en.wikipedia.org/wiki/Survival_analysis) and [breast cancer](https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352470) [MRI](https://www.mayoclinic.org/tests-procedures/mri/about/pac-20384768) image processing. His previous research experience convinced him that he could be a dedicated medical science researcher in the future by pursing a doctoral degree.
 After joining Mayo Clinic, he has focused his research on [computer vision](https://en.wikipedia.org/wiki/Computer_vision) and [digital pathology](https://en.wikipedia.org/wiki/Digital_pathology). With special interest in [melanoma](https://www.mayoclinic.org/diseases-conditions/melanoma/symptoms-causes/syc-20374884), Quincy is developing [artificial intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence) algorithms in [Whole Slide Images (WSIs)](https://digitalpathologyassociation.org/whole-slide-imaging-repository) analysis, which aims to support clinical melanoma diagnostics and treatment by providing automatic melanoma diagnostics and individualized therapeutic options.
@@ -58,19 +57,19 @@ Facts about Quincy
     <tr>
       <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button onclick="getVolume()">Volume</button>
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <img src="images/radetzky_march.png" value="PLAY" onclick="getVolume('radetzky_march')">
+      <button onclick="play_music('radetzky_march')">Play</button> 
+      <button onclick="pause_music('radetzky_march')">Pause</button> 
+      <button onclick="up_volumne('radetzky_march')">Vol +</button> 
+      <button onclick="down_volumne('radetzky_march')">Vol -</button> 
       </div>
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button onclick="getVolume()">Volume</button>
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="getVolume('place_called_you')">Volume</button>
+      <button onclick="play_music('place_called_you')">Play</button> 
+      <button onclick="pause_music('place_called_you')">Pause</button> 
+      <button onclick="up_volumne('place_called_you')">Vol +</button> 
+      <button onclick="down_volumne('place_called_you')">Vol -</button> 
       </div>
       <td><audio id="blue_danube" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
       <div> 
@@ -82,55 +81,46 @@ Facts about Quincy
       </div>
       <td><audio id="wedding_day" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button onclick="getVolume()">Volume</button>
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="getVolume('blue_danube')">Volume</button>
+      <button onclick="play_music('blue_danube')">Play</button> 
+      <button onclick="pause_music('blue_danube')">Pause</button> 
+      <button onclick="up_volumne('blue_danube')">Vol +</button> 
+      <button onclick="down_volumne('blue_danube')">Vol -</button> 
       </div>
     </tr>
 
     <script>
-    var radetzky_march = document.getElementById("radetzky_march");
-    var place_called_you = document.getElementById("place_called_you");
-    var blue_danube = document.getElementById("blue_danube");
-    var wedding_day = document.getElementById("wedding_day");
+    function get_audio_id(audio_id_name) {
+      const vid_list = []
+      vid = document.getElementById(audio_id_name)
+      return vid
+    }
 
     function getVolume() { 
-      alert(radetzky_march.volume);
-      alert(place_called_you.volume);
-      alert(blue_danube.volume);
-      alert(wedding_day.volume);
+      vid = get_audio_id(audio_id_name)
+      alert(vid.volume);
     } 
 
     function play_music() { 
-      radetzky_march.play();
-      radetzky_march.play();
-      blue_danube.play();
-      wedding_day.play();
+      vid = get_audio_id(audio_id_name)
+      vid.play();
     } 
       
     function pause_music() { 
-      radetzky_march.pause();
-      place_called_you.pause();
-      blue_danube.pause();
-      wedding_day.pause();
+      vid = get_audio_id(audio_id_name)
+      vid.pause();
     } 
       
     function up_volumne() { 
-      radetzky_march.volume = parseFloat(radetzky_march.volume)+0.1;
-      place_called_you.volume = parseFloat(place_called_you.volume)+0.1;
-      blue_danube.volume = parseFloat(blue_danube.volume)+0.1;
-      wedding_day.volume = parseFloat(wedding_day.volume)+0.1;
+      vid = get_audio_id(audio_id_name)
+      vid.volume = parseFloat(vid.volume)+0.1;
     } 
 
     function down_volumne() { 
-      radetzky_march.volume = parseFloat(radetzky_march.volume)-0.1;
-      place_called_you.volume = parseFloat(place_called_you.volume)-0.1;
-      blue_danube.volume = parseFloat(blue_danube.volume)-0.1;
-      wedding_day.volume = parseFloat(wedding_day.volume)-0.1;
+      vid = get_audio_id(audio_id_name)
+      vid.volume = parseFloat(vid.volume)-0.1;
     } 
-  </script> 
+    </script> 
   </table>
 
 <table>
