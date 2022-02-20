@@ -30,6 +30,37 @@ Education Backgrounds
 Facts about Quincy
 =====
 * Quincy is a Real Person with No Doubts: 
+<script>
+  function get_audio_id(audio_id_name) {
+    vid = document.getElementById(audio_id_name)
+    return vid
+  }
+
+  function getVolume(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    alert(vid.volume);
+  } 
+
+  function play_music(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.play();
+  } 
+    
+  function pause_music(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.pause();
+  } 
+    
+  function up_volumne(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.volume = parseFloat(vid.volume)+0.1;
+  } 
+
+  function down_volumne(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.volume = parseFloat(vid.volume)-0.1;
+  } 
+</script> 
 
   <table>
     <tr>
@@ -94,39 +125,6 @@ Facts about Quincy
       </div>
     </tr>
   </table>
-  
-  <script>
-  function get_audio_id(audio_id_name) {
-    vid = document.getElementById(audio_id_name)
-    return vid
-  }
-
-  function getVolume(audio_id_name) { 
-    vid = get_audio_id(audio_id_name)
-    alert(vid.volume);
-  } 
-
-  function play_music(audio_id_name) { 
-    vid = get_audio_id(audio_id_name)
-    vid.play();
-  } 
-    
-  function pause_music(audio_id_name) { 
-    vid = get_audio_id(audio_id_name)
-    vid.pause();
-  } 
-    
-  function up_volumne(audio_id_name) { 
-    vid = get_audio_id(audio_id_name)
-    vid.volume = parseFloat(vid.volume)+0.1;
-  } 
-
-  function down_volumne(audio_id_name) { 
-    vid = get_audio_id(audio_id_name)
-    vid.volume = parseFloat(vid.volume)-0.1;
-  } 
-  </script> 
-  
 
 <table>
 <caption>Musical Instruments Quincy Could Play</caption>
