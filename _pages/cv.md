@@ -4,8 +4,7 @@ title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume/
-  - /resume.html/
+  - /resume
 ---
 
 {% include base_path %}
@@ -15,17 +14,8 @@ Education
 * B.A. in Mathematics, University of Minnesota - Twin Cities, 2019
 * Ph.D in Biomathematics, Bioinformatics, and Computational Biology, University of Minnesota - Twin Cities & Mayo Clinic College of Medicine and Sciences, 2023 (expected)
   * Ph.D. Advisors:
-    <table>
-      <tr>
-        <td style="text-align:center"><a href="https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574">Steven N., Hart, Ph.D.</a></td>
-        <td style="text-align:center"><a href="https://cse.umn.edu/cs/chad-myers">Chad L., Myers, Ph.D.</a></td>
-      </tr>
-      <tr>
-        <td><img style="display:block;" src="images/chad.png" width="100%" height="100%"></td>
-        <td><img style="display:block;" src="images/hart.png" width="100%" height="100%"></td>
-      </tr>
-    </table>
-
+    * Advisor: [Steven N., Hart, Ph.D.](https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574)
+    * Co-Advisor: [Chad L., Myers, Ph.D.](https://cse.umn.edu/cs/chad-myers)
   * Ph.D. Thesis Committee:
     * Mayo Clinic Faculties:
       * [Steven N., Hart, Ph.D.](https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574)
