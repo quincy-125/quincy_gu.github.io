@@ -49,7 +49,7 @@ Facts about Quincy
   <table>
     <tr>
       <td style="text-align:center">Overwork but Underpaid</td>
-      <td style="text-align:center">Always in Stress Mode</td>
+      <td style="text-align:center">Always in a Stress Mode</td>
       <td style="text-align:center">Anxiety</td>
       <td style="text-align:center">Imposter Syndrome</td>
     </tr>
