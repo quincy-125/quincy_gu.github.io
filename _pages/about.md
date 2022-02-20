@@ -46,7 +46,7 @@ Facts about Quincy
   </table>
 
 * Quincy is a Music Enthusiast:
-
+     
   <table>
   <caption>Songs Quincy Loves</caption>
     <tr>
