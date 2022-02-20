@@ -45,6 +45,38 @@ Facts about Quincy
     </tr>
   </table>
 
+* Quincy is a Music Enthusiast:
+
+  <table>
+  <caption>Songs Quincy Loves</caption>
+    <tr>
+      <td style="text-align:center">Radetzky March</td>
+      <td style="text-align:center">A Place Called You</td>
+      <td style="text-align:center">The Blue Danube</td>
+      <td style="text-align:center">Wedding Day</td>
+    </tr>
+    <tr>
+      <td><audio controls autoplay> <source src="images/radetzky_march.mp3" type="audio/mpeg"></audio>
+      <td><audio controls autoplay> <source src="images/place_called_you.mp3" type="audio/mpeg"></audio>
+      <td><audio controls autoplay> <source src="images/blue_danube.mp3" type="audio/mpeg"></audio>
+      <td><audio controls autoplay> <source src="images/wedding_day.mp3" type="audio/mpeg"></audio>
+    </tr>
+  </table>
+
+<table>
+<caption>Musical Instruments Quincy Could Play</caption>
+    <tr>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Piano">Piano</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Violin">Violin</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Erhu">ErHu</a></td>
+    </tr>
+    <tr>
+      <td><img style="display:block;" src="images/piano.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/violin.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/erhu.png" width="100%" height="100%"></td>
+    </tr>
+  </table>
+
 * Quincy is also a Ph.D. Candidate:
 
   <table>
