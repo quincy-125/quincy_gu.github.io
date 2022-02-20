@@ -13,18 +13,28 @@ With primary interests in medicine and engineering, Quincy served as an undergra
 After joining Mayo Clinic, he has focused his research on [computer vision](https://en.wikipedia.org/wiki/Computer_vision) and [digital pathology](https://en.wikipedia.org/wiki/Digital_pathology). With special interest in [melanoma](https://www.mayoclinic.org/diseases-conditions/melanoma/symptoms-causes/syc-20374884), Quincy is developing [artificial intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence) algorithms in [Whole Slide Images (WSIs)](https://digitalpathologyassociation.org/whole-slide-imaging-repository) analysis, which aims to support clinical melanoma diagnostics and treatment by providing automatic melanoma diagnostics and individualized therapeutic options.
 Quincy is looking forward to continuing his education in the medical doctoral (MD) training program after graduating from the Ph.D. program. He is particularly interested in being a physician-scientist to provide direct patient care and contribute to the innovations in cancer diagnostics and therapies as his long-term career goal.
 
-More about Quincy
+Facts about Quincy
 =====
-* Quincy is a traveling lover, he loves to travel around the world
-![traveler](images/traveler.gif)
-* Quincy is also a foody, he likes to explore delicious food around
-![foody](images/foody.gif)
+* Quincy is a Real Person with No Doubts: 
+  * Quincy is a Traveling Lover & a Foody:
+  ![traveler](images/traveler.gif) ![foody](images/foody.gif)
+* Quincy is Also a Ph.D. Candidate with the Following Personality Traits:
+  * Overwork but Underpaid
+  * Always in Stress Mode
+  * Anxiety
+  ![underpaid](images/overwork_underpaid.gif) ![stress](images/stress_mode.gif) ![anxiety](images/anxiety.gif)
+  * Imposter Syndrome
+  * Overthinking
+  ![imposter](images/imposter_syndrome.gif) ![overthink](images/overthink.gif)
+  * A Caffeine Addict
+  * Fatigue
+  ![caffeine](images/caffeine_addict.gif) ![fatigue](images/fatigue.gif)
+  * Nobody Cares About Your Ph.D. But You
+  ![who cares](images/who_cares.gif)
 
 Research & Life Partners
 ======
 * Leena, Female, [Pembroke Welsh Corgi](https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi), born in June 2021
 ![Say Hellow to Leena](images/leena.png)
-* Cisco, Male, [Ragdoll](https://en.wikipedia.org/wiki/Ragdoll), born in September 2019
-![Love you Cisco](images/cisco.png)
-* Girlfriend, Female, Pending, birth date is currently not available
+* Girlfriend, Female, Pending, birth date currently is not available
 ![Actively Looking for Life Partners](images/kiss_love.gif)
