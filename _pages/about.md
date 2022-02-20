@@ -35,7 +35,7 @@ Facts about Quincy
     <tr>
       <td style="text-align:center">Traveler</td>
       <td style="text-align:center">Foody</td>
-      <td style="text-align:center">Neerdy</td>
+      <td style="text-align:center">Nerdy</td>
     </tr>
     <tr>
       <td><img style="display:block;" src="images/traveler.gif" width="100%" height="100%"></td>
@@ -44,7 +44,7 @@ Facts about Quincy
     </tr>
   </table>
 
-* Quincy is Also a Ph.D. Candidate with the Following Personality Traits:
+* Quincy is also a Ph.D. Candidate:
 
   <table>
     <tr>
