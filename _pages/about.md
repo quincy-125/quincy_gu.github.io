@@ -22,8 +22,8 @@ Education Backgrounds
         <td style="text-align:center">Ph.D. Trainig at the <a href="https://college.mayo.edu">Mayo Clinic</a> in Bioinformatics and Computational Biology <a href="https://r.umn.edu/academics-research/graduate/bicb">(BICB)</a></td>
       </tr>
       <tr>
-        <td><img align="center" src="images/umn.png" width="100%" height="100%"></td>
-        <td><img align="center" src="images/mayo_clinic.png" width="100%" height="100%"></td>
+        <td><img src="images/umn.png" width="100%" height="100%"></td>
+        <td><img src="images/mayo_clinic.png" width="100%" height="100%"></td>
       </tr>
     </table>
 
