@@ -56,10 +56,10 @@ Facts about Quincy
       <td style="text-align:center">Wedding Day</td>
     </tr>
     <tr>
-      <td><audio controls autoplay> <source src="images/radetzky_march.mp3" type="audio/mpeg"></audio>
-      <td><audio controls autoplay> <source src="images/place_called_you.mp3" type="audio/mpeg"></audio>
-      <td><audio controls autoplay> <source src="images/blue_danube.mp3" type="audio/mpeg"></audio>
-      <td><audio controls autoplay> <source src="images/wedding_day.mp3" type="audio/mpeg"></audio>
+      <td><audio controls autoplay> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
+      <td><audio controls autoplay> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
+      <td><audio controls autoplay> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
+      <td><audio controls autoplay> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
     </tr>
   </table>
 
@@ -75,7 +75,7 @@ Facts about Quincy
       <td><img style="display:block;" src="images/violin.png" width="100%" height="100%"></td>
       <td><img style="display:block;" src="images/erhu.png" width="100%" height="100%"></td>
     </tr>
-  </table>
+</table>
 
 * Quincy is also a Ph.D. Candidate:
 
