@@ -45,7 +45,8 @@ Facts about Quincy
   </table>
 
 * Quincy is a Music Enthusiast:
-   
+
+<body> 
   <table>
   <caption>Songs Quincy Loves</caption>
     <tr>
@@ -55,14 +56,14 @@ Facts about Quincy
       <td style="text-align:center">Wedding Day</td>
     </tr>
     <tr>
-      <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio></td>
+      <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="getVolume('radetzky_march')">Volume</button>
       <button onclick="play_music('radetzky_march')">Play</button> 
       <button onclick="pause_music('radetzky_march')">Pause</button> 
       <button onclick="up_volumne('radetzky_march')">Vol +</button> 
       <button onclick="down_volumne('radetzky_march')">Vol -</button> 
-      </div>
+      </div></td>
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio></td>
       <div> 
       <button onclick="getVolume('place_called_you')">Volume</button>
@@ -70,7 +71,7 @@ Facts about Quincy
       <button onclick="pause_music('place_called_you')">Pause</button> 
       <button onclick="up_volumne('place_called_you')">Vol +</button> 
       <button onclick="down_volumne('place_called_you')">Vol -</button> 
-      </div>
+      </div></td>
       <td><audio id="blue_danube" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio></td>
       <div> 
       <button onclick="getVolume()">Volume</button>
@@ -78,7 +79,7 @@ Facts about Quincy
       <button onclick="pause_music()">Pause</button> 
       <button onclick="up_volumne()">Vol +</button> 
       <button onclick="down_volumne()">Vol -</button> 
-      </div>
+      </div></td>
       <td><audio id="wedding_day" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio></td>
       <div> 
       <button onclick="getVolume('blue_danube')">Volume</button>
@@ -86,48 +87,51 @@ Facts about Quincy
       <button onclick="pause_music('blue_danube')">Pause</button> 
       <button onclick="up_volumne('blue_danube')">Vol +</button> 
       <button onclick="down_volumne('blue_danube')">Vol -</button> 
-      </div>
+      </div></td>
     </tr>
-<script>
-function get_audio_id(audio_id_name) {
-  vid = document.getElementById(audio_id_name)
-  return vid
-}
-function getVolume(audio_id_name) { 
-  vid = get_audio_id(audio_id_name)
-  alert(vid.volume);
-} 
-function play_music(audio_id_name) { 
-  vid = get_audio_id(audio_id_name)
-  vid.play();
-} 
-function pause_music(audio_id_name) { 
-  vid = get_audio_id(audio_id_name)
-  vid.pause();
-}   
-function up_volumne(audio_id_name) { 
-  vid = get_audio_id(audio_id_name)
-  vid.volume = parseFloat(vid.volume)+0.1;
-} 
-function down_volumne(audio_id_name) { 
-  vid = get_audio_id(audio_id_name)
-  vid.volume = parseFloat(vid.volume)-0.1;
-} 
-</script> 
   </table>
+
+  <script>
+  function get_audio_id(audio_id_name) {
+    vid = document.getElementById(audio_id_name)
+    return vid
+  }
+  function getVolume(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    alert(vid.volume);
+  } 
+  function play_music(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.play();
+  } 
+  function pause_music(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.pause();
+  }   
+  function up_volumne(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.volume = parseFloat(vid.volume)+0.1;
+  } 
+  function down_volumne(audio_id_name) { 
+    vid = get_audio_id(audio_id_name)
+    vid.volume = parseFloat(vid.volume)-0.1;
+  } 
+  </script> 
+</body>
+
 
   <table>
   <caption>Musical Instruments Quincy Could Play</caption>
-    <tr>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Piano">Piano</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Violin">Violin</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Erhu">ErHu</a></td>
-    </tr>
-    <tr>
-      <td><img style="display:block;" src="images/piano.png" width="100%" height="100%"></td>
-      <td><img style="display:block;" src="images/violin.png" width="100%" height="100%"></td>
-      <td><img style="display:block;" src="images/erhu.png" width="100%" height="100%"></td>
-    </tr>
+      <tr>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Piano">Piano</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Violin">Violin</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Erhu">ErHu</a></td>
+      </tr>
+      <tr>
+        <td><img style="display:block;" src="images/piano.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/violin.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/erhu.png" width="100%" height="100%"></td>
+      </tr>
   </table>
 
 * Quincy is also a Ph.D. Candidate:
