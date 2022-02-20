@@ -96,27 +96,27 @@ Facts about Quincy
       return vid
     }
 
-    function getVolume() { 
+    function getVolume(audio_id_name) { 
       vid = get_audio_id(audio_id_name)
       alert(vid.volume);
     } 
 
-    function play_music() { 
+    function play_music(audio_id_name) { 
       vid = get_audio_id(audio_id_name)
       vid.play();
     } 
       
-    function pause_music() { 
+    function pause_music(audio_id_name) { 
       vid = get_audio_id(audio_id_name)
       vid.pause();
     } 
       
-    function up_volumne() { 
+    function up_volumne(audio_id_name) { 
       vid = get_audio_id(audio_id_name)
       vid.volume = parseFloat(vid.volume)+0.1;
     } 
 
-    function down_volumne() { 
+    function down_volumne(audio_id_name) { 
       vid = get_audio_id(audio_id_name)
       vid.volume = parseFloat(vid.volume)-0.1;
     } 
