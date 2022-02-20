@@ -16,6 +16,7 @@ Quincy is looking forward to continuing his education in the medical doctoral (M
 Facts about Quincy
 =====
 * Quincy is a Real Person with No Doubts: 
+
   <table>
     <tr>
       <td>Traveler</td>
@@ -30,6 +31,7 @@ Facts about Quincy
   </table>
 
 * Quincy is Also a Ph.D. Candidate with the Following Personality Traits:
+
   <table>
     <tr>
       <td>Overwork but Underpaid</td>
@@ -66,7 +68,7 @@ Research & Life Partners
 * Leena, Female, [Pembroke Welsh Corgi](https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi), born in June 2021
 <table>
     <tr>
-      <td>Leena, Female, [Pembroke Welsh Corgi](https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi), born in June 2021</td>
+      <td>Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>, born in June 2021</td>
       <td>Girlfriend, Female, Pending, birth date currently is not available</td>
     </tr>
     <tr>
@@ -74,4 +76,3 @@ Research & Life Partners
       <td><img src="images/kiss_love.gif" width=270 height=480></td>
     </tr>
   </table>
-  
