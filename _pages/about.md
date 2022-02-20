@@ -16,21 +16,32 @@ Quincy is looking forward to continuing his education in the medical doctoral (M
 Facts about Quincy
 =====
 * Quincy is a Real Person with No Doubts: 
-  * Quincy is a Traveling Lover & a Foody:
-  ![traveler](images/traveler.gif) ![foody](images/foody.gif)
+  <table>
+    <tr>
+      <td>Traveler</td>
+      <td>Foody</td>
+      <td>Neerdy</td>
+    </tr>
+    <tr>
+      <td><img src="images/traveler.gif" width=270 height=480></td>
+      <td><img src="images/foody.gif" width=270 height=480></td>
+      <td><img src="images/nerd.gif" width=270 height=480></td>
+    </tr>
+  </table>
+
 * Quincy is Also a Ph.D. Candidate with the Following Personality Traits:
   <table>
     <tr>
       <td>Overwork but Underpaid</td>
       <td>Always in Stress Mode</td>
-      <td>Anxiety
+      <td>Anxiety</td>
       <td>Imposter Syndrome</td>
     </tr>
     <tr>
-      <td><img src="images/overwork_underpaid.gif" width=200 height=340></td>
-      <td><img src="images/stress_mode.gif" width=200 height=340></td>
-      <td><img src="images/anxiety.gif" width=200 height=340>
-      <td><img src="images/imposter_syndrome.gif" width=200 height=340></td>
+      <td><img src="images/overwork_underpaid.gif" width=270 height=480></td>
+      <td><img src="images/stress_mode.gif" width=270 height=480></td>
+      <td><img src="images/anxiety.gif" width=270 height=480></td>
+      <td><img src="images/imposter_syndrome.gif" width=270 height=480></td>
     </tr>
   </table>
 
@@ -38,20 +49,28 @@ Facts about Quincy
     <tr>
       <td>Overthinking</td>
       <td>A Caffeine Addict</td>
-      <td>Fatigue
+      <td>Fatigue</td>
       <td>Nobody Cares About Your Ph.D. But You</td>
     </tr>
     <tr>
-      <td><img src="images/overthink.gif" width=200 height=340></td>
-      <td><img src="images/caffeine_addict.gif" width=200 height=340></td>
-      <td><img src="images/fatigue.gif" width=200 height=340>
-      <td><img src="images/who_cares.gif" width=200 height=340></td>
+      <td><img src="images/overthink.gif" width=270 height=480></td>
+      <td><img src="images/caffeine_addict.gif" width=270 height=480></td>
+      <td><img src="images/fatigue.gif" width=270 height=480></td>
+      <td><img src="images/who_cares.gif" width=270 height=480></td>
     </tr>
   </table>
+
 
 Research & Life Partners
 ======
 * Leena, Female, [Pembroke Welsh Corgi](https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi), born in June 2021
-![Say Hellow to Leena](images/leena.png)
-* Girlfriend, Female, Pending, birth date currently is not available
-![Actively Looking for Life Partners](images/kiss_love.gif)
+<table>
+    <tr>
+      <td>Leena, Female, [Pembroke Welsh Corgi](https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi), born in June 2021</td>
+      <td>Girlfriend, Female, Pending, birth date currently is not available</td>
+    </tr>
+    <tr>
+      <td><img src="images/leena.png" width=270 height=480></td>
+      <td><img src="images/kiss_love.gif" width=270 height=480></td>
+    </tr>
+  </table>
