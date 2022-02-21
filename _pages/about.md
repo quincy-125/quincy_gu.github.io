@@ -91,7 +91,7 @@ function play_music(audioId) {
   audio.play();
 } 
 function pause_music(audioID) { 
-  var audio = document.getElementById(audioId);
+  var audio = document.getElementById("radetzky_march");
   audio.pause();
 } 
 function up_volumne(audioID) { 
