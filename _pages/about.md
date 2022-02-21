@@ -55,37 +55,13 @@ Facts about Quincy
       <td style="text-align:center">Wedding Day</td>
     </tr>
     <tr>
-      <td><audio display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
-      <div>  
-      <button id="vol" class="MetroBtn" onClick="getVolume(this.id);">Volume</button>
-      <button id="play" class="MetroBtn" onClick="play_music(this.id);">Play</button> 
-      <button id="pause" class="MetroBtn" onClick="pause_music(this.id);">Pause</button> 
-      <button id="up_vol" class="MetroBtn" onClick="up_volumne(this.id);">Vol +</button> 
-      <button id="down_vol" class="MetroBtn" onClick="down_volumne(this.id);">Vol -</button> 
-      </div></td>
-      <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
-      <div>  
-      <button onclick="getVolume('place_called_you')">Volume</button>
-      <button onclick="play_music('place_called_you')">Play</button> 
-      <button onclick="pause_music('place_called_you')">Pause</button> 
-      <button onclick="up_volumne('place_called_you')">Vol +</button> 
-      <button onclick="down_volumne('place_called_you')">Vol -</button> 
-      </div></td>
-      <td><audio id="blue_danube" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
+      <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button onclick="getVolume('blue_danube')">Volume</button>
-      <button onclick="play_music('blue_danube')">Play</button> 
-      <button onclick="pause_music('blue_danube')">Pause</button> 
-      <button onclick="up_volumne('blue_danube')">Vol +</button> 
-      <button onclick="down_volumne('blue_danube')">Vol -</button> 
-      </div></td>
-      <td><audio id="wedding_day" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
-      <div> 
-      <button onclick="getVolume('wedding_day')">Volume</button>
-      <button onclick="play_music('wedding_day')">Play</button> 
-      <button onclick="pause_music('wedding_day')">Pause</button> 
-      <button onclick="up_volumne('wedding_day')">Vol +</button> 
-      <button onclick="down_volumne('wedding_day')">Vol -</button> 
+      <button onclick="getVolume('radetzky_march')">Volume</button>
+      <button onclick="play_music('radetzky_march')">Play</button> 
+      <button onclick="pause_music('radetzky_march')">Pause</button> 
+      <button onclick="up_volumne('radetzky_march')">Vol +</button> 
+      <button onclick="down_volumne('radetzky_march')">Vol -</button> 
       </div></td>
     </tr>
 
