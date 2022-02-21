@@ -55,45 +55,45 @@ Facts about Quincy
       <td style="text-align:center">Wedding Day</td>
     </tr>
     <tr>
-      <td><audio id="m1" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
+      <audio id="m1" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_id('m1'); play_music('m1');">Play</button> 
       <button onclick="get_id('m1'); pause_music('m1');">Pause</button> 
       <button onclick="get_id('m1'); up_volumne('m1');">Vol +</button> 
       <button onclick="get_id('m1'); down_volumne('m1');">Vol -</button> 
-      </div></td>
-      <td><audio id="m2" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
+      </div>
+      <audio id="m2" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_id('m2'); play_music('m2');">Play</button> 
       <button onclick="get_id('m2'); pause_music('m2');">Pause</button> 
       <button onclick="get_id('m2'); up_volumne('m2');">Vol +</button> 
       <button onclick="get_id('m2'); down_volumne('m2');">Vol -</button> 
-      </div></td>
-      <td><audio id="m3" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
+      </div>
+      <audio id="m3" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_id('m3'); down_volumne('m3');">Play</button> 
       <button onclick="get_id('m3'); down_volumne('m3');">Pause</button> 
       <button onclick="get_id('m3'); down_volumne('m3');">Vol +</button> 
       <button onclick="get_id('m3'); down_volumne('m3');">Vol -</button> 
-      </div></td>
-      <td><audio id="m4" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
+      </div>
+      <audio id="m4" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_id('m4'); down_volumne('m4');">Play</button> 
       <button onclick="get_id('m4'); down_volumne('m4');">Pause</button> 
       <button onclick="get_id('m4'); down_volumne('m4');">Vol +</button> 
       <button onclick="get_id('m4'); down_volumne('m4');">Vol -</button> 
-      </div></td>
+      </div>
     </tr>
 
-<script>
-function get_id(audioID) {
-	var audio = document.getElementById(audioID);
-    return audio;
-}
-function play_music(audioID) { 
-  audio = get_id(audioID)
-  audio.play();
-} 
+  <script>
+  function get_id(audioID) {
+    var audio = document.getElementById(audioID);
+      return audio;
+  }
+  function play_music(audioID) { 
+    audio = get_id(audioID)
+    audio.play();
+  } 
   function pause_music(audioID) { 
     audio = get_id(audioID)
     audio.pause();
@@ -104,7 +104,7 @@ function play_music(audioID) {
   function down_volumne(audioID) { 
     audio.volume = parseFloat(audio.volume)-0.1;
   } 
-</script> 
+  </script> 
   </table>
 
   <table>
