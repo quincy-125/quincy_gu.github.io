@@ -140,7 +140,7 @@ Facts about Quincy
     } 
     function m3_down_volumne() { 
       m3.volume = parseFloat(m3.volume)-0.1;
-    } 
+    }  
     var m4 = document.getElementById("m4");
     function m4_get_volume() {
       alert(m4.volume)
