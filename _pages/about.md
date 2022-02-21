@@ -95,20 +95,28 @@ function get_volume(audioId) {
   alert(audio.volume);
   return audio;
 }
-function play_music() { 
-  audio = get_audioID(audioId);
+</script> 
+<script>
+function play_music(audioId) { 
+  var audio = document.getElementById(audioId);
   audio.play();
 } 
+</script>
+<script>
 function pause_music(audioID) { 
-  audio = get_audioID(audioId);
+  var audio = document.getElementById(audioId);
   audio.pause();
 } 
+</script>
+<script>
 function up_volumne(audioID) { 
-  audio = get_audioID(audioId);
+  var audio = document.getElementById(audioId);
   raudio.volume = parseFloat(audio.volume)+0.1;
 } 
+</script>
+<script>
 function down_volumne(audioID) { 
-  audio = get_audioID(audioId);
+  var audio = document.getElementById(audioId);
   audio.volume = parseFloat(audio.volume)-0.1;
 } 
 </script> 
