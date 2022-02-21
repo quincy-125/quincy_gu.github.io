@@ -66,26 +66,26 @@ Facts about Quincy
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_volume('place_called_you')">Volume</button> 
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="play_music('place_called_you')">Play</button> 
+      <button onclick="pause_music('place_called_you')">Pause</button> 
+      <button onclick="up_volumne('place_called_you')">Vol +</button> 
+      <button onclick="down_volumne('place_called_you')">Vol -</button> 
       </div></td>
       <td><audio id="blue_danube" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_volume('blue_danube')">Volume</button> 
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="play_music('blue_danube')">Play</button> 
+      <button onclick="pause_music('blue_danube')">Pause</button> 
+      <button onclick="up_volumne('blue_danube')">Vol +</button> 
+      <button onclick="down_volumne('blue_danube')">Vol -</button> 
       </div></td>
       <td><audio id="wedding_day" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_volume('wedding_day')">Volume</button> 
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="play_music('wedding_day')">Play</button> 
+      <button onclick="pause_music('wedding_day')">Pause</button> 
+      <button onclick="up_volumne('wedding_day')">Vol +</button> 
+      <button onclick="down_volumne('wedding_day')">Vol -</button> 
       </div></td>
     </tr>
 
@@ -93,31 +93,34 @@ Facts about Quincy
 function get_volume(audioId) {
   var audio = document.getElementById(audioId);
   alert(audio.volume);
-  return audio;
 }
 </script> 
+
 <script>
 function play_music(audioId) { 
-  var audio = document.getElementById(audioId);
-  audio.play();
+  var audio_p = document.getElementById(audioId);
+  audio_p.play();
 } 
 </script>
+
 <script>
 function pause_music(audioID) { 
-  var audio = document.getElementById(audioId);
-  audio.pause();
+  var audio_s = document.getElementById(audioId);
+  audio_s.pause();
 } 
 </script>
+
 <script>
 function up_volumne(audioID) { 
-  var audio = document.getElementById(audioId);
-  raudio.volume = parseFloat(audio.volume)+0.1;
+  var audio_u = document.getElementById(audioId);
+  raudio_u.volume = parseFloat(audio.volume)+0.1;
 } 
 </script>
+
 <script>
 function down_volumne(audioID) { 
-  var audio = document.getElementById(audioId);
-  audio.volume = parseFloat(audio.volume)-0.1;
+  var audio_d = document.getElementById(audioId);
+  audio_d.volume = parseFloat(audio.volume)-0.1;
 } 
 </script> 
   </table>
