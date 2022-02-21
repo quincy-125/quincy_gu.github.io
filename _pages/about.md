@@ -92,23 +92,23 @@ Facts about Quincy
 <script>
 function get_volume(audioId) {
   var audio = document.getElementById(audioId);
-  alert(audio.volume)
-  return audio
+  alert(audio.volume);
+  return audio;
 }
 function play_music() { 
-  audio = get_audioID(audioId)
+  audio = get_audioID(audioId);
   audio.play();
 } 
 function pause_music(audioID) { 
-  var audio = document.getElementById("radetzky_march");
+  audio = get_audioID(audioId);
   audio.pause();
 } 
 function up_volumne(audioID) { 
-  var audio = document.getElementById(audioId);
+  audio = get_audioID(audioId);
   raudio.volume = parseFloat(audio.volume)+0.1;
 } 
 function down_volumne(audioID) { 
-  var audio = document.getElementById(audioId);
+  audio = get_audioID(audioId);
   audio.volume = parseFloat(audio.volume)-0.1;
 } 
 </script> 
