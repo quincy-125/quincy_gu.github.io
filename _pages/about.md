@@ -65,6 +65,17 @@ Facts about Quincy
       <button onclick="m1_down_volumne()">Vol -</button> 
       </div></td>
     </tr>
+    <tr>
+      <td><audio id="m2"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
+      <div> 
+      <img src="images/place_called_you.png">
+      <button onclick="m2_get_volume()">Volume</button> 
+      <button onclick="m2_play_music()">Play</button> 
+      <button onclick="m2_pause_music()">Pause</button> 
+      <button onclick="m2_up_volumne()">Vol +</button> 
+      <button onclick="m2_down_volumne()">Vol -</button> 
+      </div></td>
+    </tr>
 <script>
     var m1 = document.getElementById("m1");
     function m1_get_volume() {
@@ -82,18 +93,6 @@ Facts about Quincy
     function m1_down_volumne() { 
       m1.volume = parseFloat(m1.volume)-0.1;
     } 
-</script> 
-  <tr>
-      <td><audio id="m2"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
-      <div> 
-      <button onclick="m2_get_volume()">Volume</button> 
-      <button onclick="m2_play_music()">Play</button> 
-      <button onclick="m2_pause_music()">Pause</button> 
-      <button onclick="m2_up_volumne()">Vol +</button> 
-      <button onclick="m2_down_volumne()">Vol -</button> 
-      </div></td>
-    </tr>
-<script>
     var m2 = document.getElementById("m2");
     function m2_get_volume() {
       alert(m2.volume)
