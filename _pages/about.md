@@ -57,32 +57,31 @@ Facts about Quincy
     <tr>
       <td><audio id="m1"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button onclick="get_id('m1'); play_music('m1');">Play</button> 
-      <button onclick="get_id('m1'); pause_music('m1');">Pause</button> 
-      <button onclick="get_id('m1'); up_volumne('m1');">Vol +</button> 
-      <button onclick="get_id('m1'); down_volumne('m1');">Vol -</button> 
+      <button onclick="get_volume()">Volume</button> 
+      <button onclick="play_music()">Play</button> 
+      <button onclick="pause_music()">Pause</button> 
+      <button onclick="up_volumne()">Vol +</button> 
+      <button onclick="down_volumne()">Vol -</button> 
       </div></td>
     </tr>
-  <script>
-      function get_id(audioID) {
-        var audio = document.getElementById(audioID);
-          return audio;
-      }
-      function play_music(audioID) { 
-        audio = get_id(audioID)
-        audio.play();
-      } 
-      function pause_music(audioID) { 
-        audio = get_id(audioID)
-        audio.pause();
-      } 
-      function up_volumne(audioID) { 
-        audio.volume = parseFloat(audio.volume)+0.1;
-      } 
-      function down_volumne(audioID) { 
-        audio.volume = parseFloat(audio.volume)-0.1;
-      } 
-  </script> 
+<script>
+    var audio = document.getElementById(audioID);
+    function get_volume() {
+      alert(audio.volume)
+    }
+    function play_music() { 
+      audio.play();
+    } 
+    function pause_music() { 
+      audio.pause();
+    } 
+    function up_volumne() { 
+      audio.volume = parseFloat(audio.volume)+0.1;
+    } 
+    function down_volumne() { 
+      audio.volume = parseFloat(audio.volume)-0.1;
+    } 
+</script> 
   </table>
 
   <table>
