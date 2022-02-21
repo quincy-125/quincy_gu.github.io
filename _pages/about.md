@@ -58,10 +58,10 @@ Facts about Quincy
       <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_volume('radetzky_march')">Volume</button> 
-      <button onclick="play_music('radetzky_march')">Play</button> 
-      <button onclick="pause_music('radetzky_march')">Pause</button> 
-      <button onclick="up_volumne('radetzky_march')">Vol +</button> 
-      <button onclick="down_volumne('radetzky_march')">Vol -</button> 
+      <button onclick="play_music()">Play</button> 
+      <button onclick="pause_music()">Pause</button> 
+      <button onclick="up_volumne()">Vol +</button> 
+      <button onclick="down_volumne()">Vol -</button> 
       </div></td>
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
@@ -90,37 +90,25 @@ Facts about Quincy
     </tr>
 
 <script>
-function get_volume(v_audioId) {
-  var v_audio = document.getElementById(v_audioId);
-  alert(v_audio.volume);
+function get_audio(audioID) {
+  var audio = document.getElementById(audioId);
+  return audio
 }
-</script> 
-
-<script>
-function play_music(p_audioId) { 
-  var audio_p = document.getElementById(p_audioId);
-  audio_p.play();
+var audio = get_audio(audioId);
+function get_volume() {
+  alert(audio.volume);
+}
+function play_music() { 
+  audio.play();
 } 
-</script>
-
-<script>
-function pause_music(s_audioID) { 
-  var audio_s = document.getElementById(s_audioId);
-  audio_s.pause();
+function pause_music() { 
+  audio.pause();
 } 
-</script>
-
-<script>
-function up_volumne(u_audioID) { 
-  var audio_u = document.getElementById(u_audioId);
-  audio_u.volume = parseFloat(audio_u.volume)+0.1;
+function up_volumne() { 
+  audio.volume = parseFloat(audio.volume)+0.1;
 } 
-</script>
-
-<script>
-function down_volumne(d_audioID) { 
-  var audio_d = document.getElementById(d_audioId);
-  audio_d.volume = parseFloat(audio_d.volume)-0.1;
+function down_volumne() { 
+  audio.volume = parseFloat(audio.volume)-0.1;
 } 
 </script> 
   </table>
