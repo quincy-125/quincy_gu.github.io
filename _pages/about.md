@@ -57,29 +57,58 @@ Facts about Quincy
     <tr>
       <td><audio id="m1"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button onclick="get_volume()">Volume</button> 
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <img src="images/radetzky_march.png">
+      <button onclick="m1_get_volume()">Volume</button> 
+      <button onclick="m1_play_music()">Play</button> 
+      <button onclick="m1_pause_music()">Pause</button> 
+      <button onclick="m1_up_volumne()">Vol +</button> 
+      <button onclick="m1_down_volumne()">Vol -</button> 
       </div></td>
     </tr>
 <script>
-    var audio = document.getElementById("m1");
-    function get_volume() {
-      alert(audio.volume)
+    var m1 = document.getElementById("m1");
+    function m1_get_volume() {
+      alert(m1.volume)
     }
-    function play_music() { 
-      audio.play();
+    function m1_play_music() { 
+      m1.play();
     } 
-    function pause_music() { 
-      audio.pause();
+    function m1_pause_music() { 
+      m1.pause();
     } 
-    function up_volumne() { 
-      audio.volume = parseFloat(audio.volume)+0.1;
+    function m1_up_volumne() { 
+      m1.volume = parseFloat(m1.volume)+0.1;
     } 
-    function down_volumne() { 
-      audio.volume = parseFloat(audio.volume)-0.1;
+    function m1_down_volumne() { 
+      m1.volume = parseFloat(m1.volume)-0.1;
+    } 
+</script> 
+  <tr>
+      <td><audio id="m2"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
+      <div> 
+      <button onclick="m2_get_volume()">Volume</button> 
+      <button onclick="m2_play_music()">Play</button> 
+      <button onclick="m2_pause_music()">Pause</button> 
+      <button onclick="m2_up_volumne()">Vol +</button> 
+      <button onclick="m2_down_volumne()">Vol -</button> 
+      </div></td>
+    </tr>
+<script>
+    var m2 = document.getElementById("m2");
+    function m2_get_volume() {
+      alert(m2.volume)
+    }
+    function m2_play_music() { 
+      m2.play();
+    } 
+    function m2_pause_music() { 
+      m2.pause();
+    } 
+    function m2_up_volumne() { 
+      m2.volume = parseFloat(m2.volume)+0.1;
+    } 
+    function m2_down_volumne() { 
+      m2.volume = parseFloat(m2.volume)-0.1;
     } 
 </script> 
   </table>
