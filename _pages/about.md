@@ -7,7 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
- 
+
+<audio id='t1', display="false" controls autoplay loop>
+  <source src="musics/radetzky_march.mp3" type="audio/mpeg">
+</audio>
+
 Qiangqiang(Quincy) Gu is a Ph.D. candidate in [biomathematics](https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology), [bioinformatics](https://en.wikipedia.org/wiki/Bioinformatics), and [computational biology](https://en.wikipedia.org/wiki/Computational_biology) trained jointly by the [University of Minnesota - Twin Cities](https://twin-cities.umn.edu) and the [Mayo Clinic Graduate School of Biomedical Sciences](https://college.mayo.edu). He also holds a bachelor degree from the [University of Minnesota - Twin Cities in mathematics](https://cse.umn.edu/math). 
 With primary interests in medicine and engineering, Quincy served as an undergraduate research assistant at the [University of Minnesota Medical School](https://med.umn.edu), where he did research on [colorectal cancer](https://www.cdc.gov/cancer/colorectal/basic_info/what-is-colorectal-cancer.htm) patients [survival analysis](https://en.wikipedia.org/wiki/Survival_analysis) and [breast cancer](https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352470) [MRI](https://www.mayoclinic.org/tests-procedures/mri/about/pac-20384768) image processing. His previous research experience convinced him that he could be a dedicated medical science researcher in the future by pursing a doctoral degree.
 After joining Mayo Clinic, he has focused his research on [computer vision](https://en.wikipedia.org/wiki/Computer_vision) and [digital pathology](https://en.wikipedia.org/wiki/Digital_pathology). With special interest in [melanoma](https://www.mayoclinic.org/diseases-conditions/melanoma/symptoms-causes/syc-20374884), Quincy is developing [artificial intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence) algorithms in [Whole Slide Images (WSIs)](https://digitalpathologyassociation.org/whole-slide-imaging-repository) analysis, which aims to support clinical melanoma diagnostics and treatment by providing automatic melanoma diagnostics and individualized therapeutic options.
@@ -42,83 +46,6 @@ Facts about Quincy
       <td><img style="display:block;" src="images/foody.gif" width="100%" height="100%"></td>
       <td><img style="display:block;" src="images/nerd.gif" width="100%" height="100%"></td>
     </tr>
-  </table>
-
-* Quincy is a Music Enthusiast:
-     
-  <table>
-  <caption>Songs Quincy Loves</caption>
-    <tr>
-      <td style="text-align:center">Radetzky March</td>
-      <td style="text-align:center">A Place Called You</td>
-      <td style="text-align:center">The Blue Danube</td>
-      <td style="text-align:center">Wedding Day</td>
-    </tr>
-    <tr>
-      <audio id="m1" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
-      <div> 
-      <button onclick="get_id('m1'); play_music('m1');">Play</button> 
-      <button onclick="get_id('m1'); pause_music('m1');">Pause</button> 
-      <button onclick="get_id('m1'); up_volumne('m1');">Vol +</button> 
-      <button onclick="get_id('m1'); down_volumne('m1');">Vol -</button> 
-      </div>
-      <audio id="m2" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
-      <div> 
-      <button onclick="get_id('m2'); play_music('m2');">Play</button> 
-      <button onclick="get_id('m2'); pause_music('m2');">Pause</button> 
-      <button onclick="get_id('m2'); up_volumne('m2');">Vol +</button> 
-      <button onclick="get_id('m2'); down_volumne('m2');">Vol -</button> 
-      </div>
-      <audio id="m3" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
-      <div> 
-      <button onclick="get_id('m3'); down_volumne('m3');">Play</button> 
-      <button onclick="get_id('m3'); down_volumne('m3');">Pause</button> 
-      <button onclick="get_id('m3'); down_volumne('m3');">Vol +</button> 
-      <button onclick="get_id('m3'); down_volumne('m3');">Vol -</button> 
-      </div>
-      <audio id="m4" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
-      <div> 
-      <button onclick="get_id('m4'); down_volumne('m4');">Play</button> 
-      <button onclick="get_id('m4'); down_volumne('m4');">Pause</button> 
-      <button onclick="get_id('m4'); down_volumne('m4');">Vol +</button> 
-      <button onclick="get_id('m4'); down_volumne('m4');">Vol -</button> 
-      </div>
-    </tr>
-
-  <script>
-  function get_id(audioID) {
-    var audio = document.getElementById(audioID);
-      return audio;
-  }
-  function play_music(audioID) { 
-    audio = get_id(audioID)
-    audio.play();
-  } 
-  function pause_music(audioID) { 
-    audio = get_id(audioID)
-    audio.pause();
-  } 
-  function up_volumne(audioID) { 
-    audio.volume = parseFloat(audio.volume)+0.1;
-  } 
-  function down_volumne(audioID) { 
-    audio.volume = parseFloat(audio.volume)-0.1;
-  } 
-  </script> 
-  </table>
-
-  <table>
-  <caption>Musical Instruments Quincy Could Play</caption>
-      <tr>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Piano">Piano</a></td>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Violin">Violin</a></td>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Erhu">ErHu</a></td>
-      </tr>
-      <tr>
-        <td><img style="display:block;" src="images/piano.png" width="100%" height="100%"></td>
-        <td><img style="display:block;" src="images/violin.png" width="100%" height="100%"></td>
-        <td><img style="display:block;" src="images/erhu.png" width="100%" height="100%"></td>
-      </tr>
   </table>
 
 * Quincy is also a Ph.D. Candidate:
