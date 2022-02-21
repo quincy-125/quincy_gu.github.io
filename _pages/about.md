@@ -57,6 +57,7 @@ Facts about Quincy
     <tr>
       <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
+      <button onclick="getVolume('radetzky_march')">Volume</button>
       <button onclick="play_music('radetzky_march')">Play</button> 
       <button onclick="pause_music('radetzky_march')">Pause</button> 
       <button onclick="up_volumne('radetzky_march')">Vol +</button> 
@@ -64,53 +65,52 @@ Facts about Quincy
       </div></td>
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button onclick="get_volume('place_called_you')">Volume</button> 
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="getVolume('place_called_you')">Volume</button>
+      <button onclick="play_music('place_called_you')">Play</button> 
+      <button onclick="pause_music('place_called_you')">Pause</button> 
+      <button onclick="up_volumne('place_called_you')">Vol +</button> 
+      <button onclick="down_volumne('place_called_you')">Vol -</button> 
       </div></td>
       <td><audio id="blue_danube" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button onclick="get_volume('blue_danube')">Volume</button> 
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="getVolume('blue_danube')">Volume</button>
+      <button onclick="play_music('blue_danube')">Play</button> 
+      <button onclick="pause_music('blue_danube')">Pause</button> 
+      <button onclick="up_volumne('blue_danube')">Vol +</button> 
+      <button onclick="down_volumne('blue_danube')">Vol -</button> 
       </div></td>
       <td><audio id="wedding_day" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button onclick="get_volume('wedding_day')">Volume</button> 
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="getVolume('wedding_day')">Volume</button>
+      <button onclick="play_music('wedding_day')">Play</button> 
+      <button onclick="pause_music('wedding_day')">Pause</button> 
+      <button onclick="up_volumne('wedding_day')">Vol +</button> 
+      <button onclick="down_volumne('wedding_day')">Vol -</button> 
       </div></td>
     </tr>
 
-<script>
-function get_volume(audioId) {
-  var audio = document.getElementById(audioId);
-  alert(audio.volume);
-  return audio;
-}
-function play_music(audioId) { 
-  audio = get_audioID(audioId);
-  audio.play();
-} 
-function pause_music(audioID) { 
-  audio = get_audioID(audioId);
-  audio.pause();
-} 
-function up_volumne(audioID) { 
-  audio = get_audioID(audioId);
-  raudio.volume = parseFloat(audio.volume)+0.1;
-} 
-function down_volumne(audioID) { 
-  audio = get_audioID(audioId);
-  audio.volume = parseFloat(audio.volume)-0.1;
-} 
-</script> 
+    <script>
+    function getVolume(audioId) { 
+      var audio = document.getElementById(audioId);
+      alert(audio.volume);
+    } 
+    function play_music(audioId) { 
+      var audio = document.getElementById(audioId);
+      audio.play();
+    } 
+    function pause_music(audioID) { 
+      var audio = document.getElementById(audioId);
+      audio.pause();
+    } 
+    function up_volumne(audioID) { 
+      var audio = document.getElementById(audioId);
+      raudio.volume = parseFloat(audio.volume)+0.1;
+    } 
+    function down_volumne(audioID) { 
+      var audio = document.getElementById(audioId);
+      audio.volume = parseFloat(audio.volume)-0.1;
+    } 
+  </script> 
   </table>
 
   <table>
