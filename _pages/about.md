@@ -62,7 +62,7 @@ Facts about Quincy
       <button onclick="pause_music('radetzky_march')">Pause</button> 
       <button onclick="up_volumne('radetzky_march')">Vol +</button> 
       <button onclick="down_volumne('radetzky_march')">Vol -</button> 
-      </div></td>
+      </div>
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_volume('place_called_you')">Volume</button> 
@@ -70,7 +70,7 @@ Facts about Quincy
       <button onclick="pause_music('place_called_you')">Pause</button> 
       <button onclick="up_volumne('place_called_you')">Vol +</button> 
       <button onclick="down_volumne('place_called_you')">Vol -</button> 
-      </div></td>
+      </div>
       <td><audio id="blue_danube" display="true"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_volume('blue_danube')">Volume</button> 
@@ -78,7 +78,7 @@ Facts about Quincy
       <button onclick="pause_music('blue_danube')">Pause</button> 
       <button onclick="up_volumne('blue_danube')">Vol +</button> 
       <button onclick="down_volumne('blue_danube')">Vol -</button> 
-      </div></td>
+      </div>
       <td><audio id="wedding_day" display="true"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_volume('wedding_day')">Volume</button> 
@@ -90,28 +90,24 @@ Facts about Quincy
     </tr>
 
 <script>
-function get_audio(audioID) {
-  var audio = document.getElementById(audioId);
-  return audio;
-}
 function get_volume(audioId) {
-  var audio = get_audio(audioId);
+  var audio = document.getElementById(audioId);
   alert(audio.volume);
 }
 function play_music(audioId) { 
-  var audio = get_audio(audioId);
+  var audio = document.getElementById(audioId);
   audio.play();
 } 
 function pause_music(audioId) { 
-  var audio = get_audio(audioId);
+  var audio = document.getElementById(audioId);
   audio.pause();
 } 
 function up_volumne(audioId) { 
-  var audio = get_volume(audioId);
+  var audio = document.getElementById(audioId);
   audio.volume = parseFloat(audio.volume)+0.1;
 } 
 function down_volumne(audioId) { 
-  var audio = get_volume(audioId);
+  var audio = document.getElementById(audioId);
   audio.volume = parseFloat(audio.volume)-0.1;
 } 
 </script> 
