@@ -100,36 +100,36 @@ Facts about Quincy
       audio.play();
     } 
       
-    function pause_music(audio) { 
+    function pause_music(audioID) { 
       var audio = document.getElementById(audioId);
       audio.pause();
     } 
       
-    function up_volumne(audio) { 
+    function up_volumne(audioID) { 
       var audio = document.getElementById(audioId);
       raudio.volume = parseFloat(audio.volume)+0.1;
     } 
 
-    function down_volumne(audio) { 
+    function down_volumne(audioID) { 
       var audio = document.getElementById(audioId);
       audio.volume = parseFloat(audio.volume)-0.1;
     } 
   </script> 
   </table>
 
-<table>
-<caption>Musical Instruments Quincy Could Play</caption>
-    <tr>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Piano">Piano</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Violin">Violin</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Erhu">ErHu</a></td>
-    </tr>
-    <tr>
-      <td><img style="display:block;" src="images/piano.png" width="100%" height="100%"></td>
-      <td><img style="display:block;" src="images/violin.png" width="100%" height="100%"></td>
-      <td><img style="display:block;" src="images/erhu.png" width="100%" height="100%"></td>
-    </tr>
-</table>
+  <table>
+  <caption>Musical Instruments Quincy Could Play</caption>
+      <tr>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Piano">Piano</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Violin">Violin</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Erhu">ErHu</a></td>
+      </tr>
+      <tr>
+        <td><img style="display:block;" src="images/piano.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/violin.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/erhu.png" width="100%" height="100%"></td>
+      </tr>
+  </table>
 
 * Quincy is also a Ph.D. Candidate:
 
