@@ -73,6 +73,24 @@ Facts about Quincy
       <button onclick="m2_up_volumne()">Vol +</button> 
       <button onclick="m2_down_volumne()">Vol -</button> 
       </div></td>
+      <td><audio id="m3"> <source src="musics/blue_danube.mp3" type="audio/mpeg"></audio>
+      <div> 
+      <img src="images/blue_danube.png">
+      <button onclick="m3_get_volume()">Volume</button> 
+      <button onclick="m3_play_music()">Play</button> 
+      <button onclick="m3_pause_music()">Pause</button> 
+      <button onclick="m3_up_volumne()">Vol +</button> 
+      <button onclick="m3_down_volumne()">Vol -</button> 
+      </div></td>
+      <td><audio id="m4"> <source src="musics/wedding_day.mp3" type="audio/mpeg"></audio>
+      <div> 
+      <img src="images/wedding_day.png">
+      <button onclick="m4_get_volume()">Volume</button> 
+      <button onclick="m4_play_music()">Play</button> 
+      <button onclick="m4_pause_music()">Pause</button> 
+      <button onclick="m4_up_volumne()">Vol +</button> 
+      <button onclick="m4_down_volumne()">Vol -</button> 
+      </div></td>
     </tr> 
 <script>
     var m1 = document.getElementById("m1");
@@ -106,6 +124,38 @@ Facts about Quincy
     } 
     function m2_down_volumne() { 
       m2.volume = parseFloat(m2.volume)-0.1;
+    } 
+    var m3 = document.getElementById("m3");
+    function m3_get_volume() {
+      alert(m3.volume)
+    }
+    function m3_play_music() { 
+      m3.play();
+    } 
+    function m3_pause_music() { 
+      m3.pause();
+    } 
+    function m3_up_volumne() { 
+      m3.volume = parseFloat(m3.volume)+0.1;
+    } 
+    function m3_down_volumne() { 
+      m3.volume = parseFloat(m3.volume)-0.1;
+    } 
+    var m4 = document.getElementById("m4");
+    function m4_get_volume() {
+      alert(m4.volume)
+    }
+    function m4_play_music() { 
+      m4.play();
+    } 
+    function m4_pause_music() { 
+      m4.pause();
+    } 
+    function m4_up_volumne() { 
+      m4.volume = parseFloat(m4.volume)+0.1;
+    } 
+    function m4_down_volumne() { 
+      m4.volume = parseFloat(m4.volume)-0.1;
     } 
 </script> 
   </table>
