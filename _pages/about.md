@@ -57,11 +57,11 @@ Facts about Quincy
     <tr>
       <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
-      <button id="radetzky_march" class="MetroBtn" onClick="getVolume(this.id);">Volume</button>
-      <button id="radetzky_march" class="MetroBtn" onClick="play_music(this.id);">Play</button> 
-      <button id="radetzky_march" class="MetroBtn" onClick="pause_music(this.id);">Pause</button> 
-      <button id="radetzky_march" class="MetroBtn" onClick="up_volumne(this.id);">Vol +</button> 
-      <button id="radetzky_march" class="MetroBtn" onClick="down_volumne(this.id);">Vol -</button> 
+      <button id="vol" class="MetroBtn" onClick="getVolume(this.id);">Volume</button>
+      <button id="play" class="MetroBtn" onClick="play_music(this.id);">Play</button> 
+      <button id="pause" class="MetroBtn" onClick="pause_music(this.id);">Pause</button> 
+      <button id="up_vol" class="MetroBtn" onClick="up_volumne(this.id);">Vol +</button> 
+      <button id="down_vol" class="MetroBtn" onClick="down_volumne(this.id);">Vol -</button> 
       </div></td>
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div>  
