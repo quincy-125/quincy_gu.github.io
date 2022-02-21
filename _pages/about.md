@@ -64,7 +64,7 @@ Facts about Quincy
       </div></td>
     </tr>
 
-  <script>
+<script>
     function get_id(audioID) {
       var audio = document.getElementById(audioID);
         return audio;
@@ -83,7 +83,7 @@ Facts about Quincy
     function down_volumne(audioID) { 
       audio.volume = parseFloat(audio.volume)-0.1;
     } 
-  </script> 
+</script> 
   </table>
 
   <table>
