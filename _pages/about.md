@@ -64,7 +64,7 @@ Facts about Quincy
       <button id="radetzky_march" class="MetroBtn" onClick="down_volumne(this.id);">Vol -</button> 
       </div></td>
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
-      <div> 
+      <div>  
       <button onclick="getVolume('place_called_you')">Volume</button>
       <button onclick="play_music('place_called_you')">Play</button> 
       <button onclick="pause_music('place_called_you')">Pause</button> 
