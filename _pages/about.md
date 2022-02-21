@@ -91,7 +91,8 @@ Facts about Quincy
 
 <script>
 function get_audio(audioID) {
-  var audio = document.getElementById(audioId);
+  var audio = document.getElementById(audioId)
+  return audio;
 }
 function get_volume(audioId) {
   audio = get_audio(audioId);
