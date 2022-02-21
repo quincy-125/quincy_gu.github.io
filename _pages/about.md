@@ -94,22 +94,18 @@ Facts about Quincy
       var audio = document.getElementById(audioId);
       alert(audio.volume);
     } 
-
     function play_music(audioId) { 
       var audio = document.getElementById(audioId);
       audio.play();
     } 
-      
     function pause_music(audioID) { 
       var audio = document.getElementById(audioId);
       audio.pause();
     } 
-      
     function up_volumne(audioID) { 
       var audio = document.getElementById(audioId);
       raudio.volume = parseFloat(audio.volume)+0.1;
     } 
-
     function down_volumne(audioID) { 
       var audio = document.getElementById(audioId);
       audio.volume = parseFloat(audio.volume)-0.1;
