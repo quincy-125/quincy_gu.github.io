@@ -91,27 +91,27 @@ Facts about Quincy
 
 <script>
 function get_audio(audioID) {
-  var audio = document.getElementById(audioId)
+  var audio = document.getElementById(audioId);
   return audio;
 }
 function get_volume(audioId) {
-  audio = get_audio(audioId);
+  var audio = get_audio(audioId);
   alert(audio.volume);
 }
 function play_music(audioId) { 
-  audio = get_audio(audioId);
+  var audio = get_audio(audioId);
   audio.play();
 } 
 function pause_music(audioId) { 
-  audio = get_audio(audioId);
+  var audio = get_audio(audioId);
   audio.pause();
 } 
 function up_volumne(audioId) { 
-  audio = get_volume(audioId);
+  var audio = get_volume(audioId);
   audio.volume = parseFloat(audio.volume)+0.1;
 } 
 function down_volumne(audioId) { 
-  audio = get_volume(audioId);
+  var audio = get_volume(audioId);
   audio.volume = parseFloat(audio.volume)-0.1;
 } 
 </script> 
