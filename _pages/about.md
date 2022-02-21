@@ -55,8 +55,8 @@ Facts about Quincy
       <td style="text-align:center">Wedding Day</td>
     </tr>
     <tr>
-      <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
-      <div> 
+      <td><audio display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
+      <div>  
       <button id="vol" class="MetroBtn" onClick="getVolume(this.id);">Volume</button>
       <button id="play" class="MetroBtn" onClick="play_music(this.id);">Play</button> 
       <button id="pause" class="MetroBtn" onClick="pause_music(this.id);">Pause</button> 
