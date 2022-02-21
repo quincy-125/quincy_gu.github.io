@@ -64,8 +64,6 @@ Facts about Quincy
       <button onclick="m1_up_volumne()">Vol +</button> 
       <button onclick="m1_down_volumne()">Vol -</button> 
       </div></td>
-    </tr>
-    <tr>
       <td><audio id="m2"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
       <img src="images/place_called_you.png">
@@ -75,7 +73,7 @@ Facts about Quincy
       <button onclick="m2_up_volumne()">Vol +</button> 
       <button onclick="m2_down_volumne()">Vol -</button> 
       </div></td>
-    </tr>
+    </tr> 
 <script>
     var m1 = document.getElementById("m1");
     function m1_get_volume() {
