@@ -63,27 +63,26 @@ Facts about Quincy
       <button onclick="get_id('m1'); down_volumne('m1');">Vol -</button> 
       </div></td>
     </tr>
-
-<script>
-    function get_id(audioID) {
-      var audio = document.getElementById(audioID);
-        return audio;
-    }
-    function play_music(audioID) { 
-      audio = get_id(audioID)
-      audio.play();
-    } 
-    function pause_music(audioID) { 
-      audio = get_id(audioID)
-      audio.pause();
-    } 
-    function up_volumne(audioID) { 
-      audio.volume = parseFloat(audio.volume)+0.1;
-    } 
-    function down_volumne(audioID) { 
-      audio.volume = parseFloat(audio.volume)-0.1;
-    } 
-</script> 
+  <script>
+      function get_id(audioID) {
+        var audio = document.getElementById(audioID);
+          return audio;
+      }
+      function play_music(audioID) { 
+        audio = get_id(audioID)
+        audio.play();
+      } 
+      function pause_music(audioID) { 
+        audio = get_id(audioID)
+        audio.pause();
+      } 
+      function up_volumne(audioID) { 
+        audio.volume = parseFloat(audio.volume)+0.1;
+      } 
+      function down_volumne(audioID) { 
+        audio.volume = parseFloat(audio.volume)-0.1;
+      } 
+  </script> 
   </table>
 
   <table>
