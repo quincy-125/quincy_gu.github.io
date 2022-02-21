@@ -65,7 +65,7 @@ Facts about Quincy
       </div></td>
     </tr>
 <script>
-    var audio = document.getElementById(audioID);
+    var audio = document.getElementById("m1");
     function get_volume() {
       alert(audio.volume)
     }
