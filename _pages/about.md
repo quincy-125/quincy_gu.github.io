@@ -58,10 +58,10 @@ Facts about Quincy
       <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_volume('radetzky_march')">Volume</button> 
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="play_music('radetzky_march')">Play</button> 
+      <button onclick="pause_music('radetzky_march')">Pause</button> 
+      <button onclick="up_volumne('radetzky_march')">Vol +</button> 
+      <button onclick="down_volumne('radetzky_march')">Vol -</button> 
       </div></td>
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
