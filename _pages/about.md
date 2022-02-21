@@ -90,37 +90,37 @@ Facts about Quincy
     </tr>
 
 <script>
-function get_volume(audioId) {
-  var audio = document.getElementById(audioId);
-  alert(audio.volume);
+function get_volume(v_audioId) {
+  var v_audio = document.getElementById(v_audioId);
+  alert(v_audio.volume);
 }
 </script> 
 
 <script>
-function play_music(audioId) { 
-  var audio_p = document.getElementById(audioId);
+function play_music(p_audioId) { 
+  var audio_p = document.getElementById(p_audioId);
   audio_p.play();
 } 
 </script>
 
 <script>
-function pause_music(audioID) { 
-  var audio_s = document.getElementById(audioId);
+function pause_music(s_audioID) { 
+  var audio_s = document.getElementById(s_audioId);
   audio_s.pause();
 } 
 </script>
 
 <script>
-function up_volumne(audioID) { 
-  var audio_u = document.getElementById(audioId);
-  raudio_u.volume = parseFloat(audio.volume)+0.1;
+function up_volumne(u_audioID) { 
+  var audio_u = document.getElementById(u_audioId);
+  audio_u.volume = parseFloat(audio_u.volume)+0.1;
 } 
 </script>
 
 <script>
-function down_volumne(audioID) { 
-  var audio_d = document.getElementById(audioId);
-  audio_d.volume = parseFloat(audio.volume)-0.1;
+function down_volumne(d_audioID) { 
+  var audio_d = document.getElementById(d_audioId);
+  audio_d.volume = parseFloat(audio_d.volume)-0.1;
 } 
 </script> 
   </table>
