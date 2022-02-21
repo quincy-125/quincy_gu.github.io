@@ -58,10 +58,10 @@ Facts about Quincy
       <td><audio id="radetzky_march" display="true"> <source src="musics/radetzky_march.mp3" type="audio/mpeg"></audio>
       <div> 
       <button onclick="get_volume('radetzky_march')">Volume</button> 
-      <button onclick="play_music()">Play</button> 
-      <button onclick="pause_music()">Pause</button> 
-      <button onclick="up_volumne()">Vol +</button> 
-      <button onclick="down_volumne()">Vol -</button> 
+      <button onclick="play_music('radetzky_march')">Play</button> 
+      <button onclick="pause_music('radetzky_march')">Pause</button> 
+      <button onclick="up_volumne('radetzky_march')">Vol +</button> 
+      <button onclick="down_volumne('radetzky_march')">Vol -</button> 
       </div></td>
       <td><audio id="place_called_you" display="true"> <source src="musics/place_called_you.mp3" type="audio/mpeg"></audio>
       <div> 
@@ -92,22 +92,25 @@ Facts about Quincy
 <script>
 function get_audio(audioID) {
   var audio = document.getElementById(audioId);
-  return audio
 }
-var audio = get_audio(audioId);
-function get_volume() {
+function get_volume(audioId) {
+  audio = get_audio(audioId);
   alert(audio.volume);
 }
-function play_music() { 
+function play_music(audioId) { 
+  audio = get_audio(audioId);
   audio.play();
 } 
-function pause_music() { 
+function pause_music(audioId) { 
+  audio = get_audio(audioId);
   audio.pause();
 } 
-function up_volumne() { 
+function up_volumne(audioId) { 
+  audio = get_volume(audioId);
   audio.volume = parseFloat(audio.volume)+0.1;
 } 
-function down_volumne() { 
+function down_volumne(audioId) { 
+  audio = get_volume(audioId);
   audio.volume = parseFloat(audio.volume)-0.1;
 } 
 </script> 
