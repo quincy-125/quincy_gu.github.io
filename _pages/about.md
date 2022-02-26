@@ -20,7 +20,7 @@ Education Backgrounds
       <tr>
         <td width="200" height="50" style="text-align:center">Undergradte Study at the <a href="https://twin-cities.umn.edu">University of Minnesota - Twin Cities</a> <a href="https://cla.umn.edu/undergraduate-students/requirements-policies/about-majors-minors/shared-majors-and-minors/ba-mathematics">College of Libral Arts</a> majored in <a href="https://cse.umn.edu/math">Mathematics</a></td>
         <td width="200" height="50" style="text-align:center">Ph.D. Trainig at the <a href="https://college.mayo.edu">Mayo Clinic</a> in Bioinformatics and Computational Biology <a href="https://r.umn.edu/academics-research/graduate/bicb">(BICB)</a></td>
-      </tr>
+      </tr> 
       <tr>
         <td><img style="vertical-align: bottom;" src="images/umn.png" width="100%" height="100%"></td>
         <td><img style="vertical-align: bottom;" src="images/mayo_clinic.png" width="100%" height="100%"></td>
