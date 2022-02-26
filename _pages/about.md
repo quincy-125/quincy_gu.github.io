@@ -24,7 +24,7 @@ Education Backgrounds
       <tr>
         <td><img style="vertical-align: bottom;" src="images/umn.png" width="100%" height="100%"></td>
         <td><img style="vertical-align: bottom;" src="images/mayo_clinic.png" width="100%" height="100%"></td>
-      </tr>
+      </tr>   
     </table>   
 
 Facts about Quincy
