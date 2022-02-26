@@ -85,24 +85,14 @@ Academic Research Experience
     * Applied PDE and Probability Theorem in Imaging Analysis
     * MATLAB Programming used in Imaging Analysis and generated a research paper with LaTeX
 
-Academic Research Experience
+Industry Research Experience
 ======
 * Computational Pathology Ph.D. Level Summer Intern, Summer 2022:
   * Roche Diagnostics Solution (RDS)
   * Computational Science and Informatics (RDS CSI)
   * Computational Pathology Lab (CPL) Chapter
 
-Academic Teaching Experience
-======
-* Undergraduate Teaching Assistant, College of Liberal Arts, University of Minnesota - Twin Cities:
-  * CLA 3001- CLA Transfer Semester Experience:
-    * Fall 2018
-* Graduate Teaching Assistant, College of Science and Engineering, University of Minnesota - Twin Cities:
-  * BICB 8510-Computational Biology:
-    * Spring 2021
-    * Spring 2022
-
-Academic Mentoring Experience
+Mentoring Experience
 ======
 * [PROJECT SHORT Pre-Grad Program Mentor](https://www.project-short.com/pre-grad-mentors/quincy-gu) , 2019 - Present:
   * Mentor undergradtaes for Ph.D. programs applications
@@ -145,7 +135,7 @@ Skills
   * Chinese
   * English
 
-Professional Certificates
+Professional Certifications
 ======
 * Digital Pathology Certificate, National Society for Histotechnology
 * Computational Genomics, University of Illinois Urbana-Champaign
