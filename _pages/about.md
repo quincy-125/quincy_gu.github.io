@@ -174,6 +174,69 @@ Facts about Quincy
       </tr>
   </table>
 
+* Quincy is a Traveler
+  <table>
+  <caption>Traveling in <a href="https://en.wikipedia.org/wiki/China">China</a></caption>
+      <tr>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Beijing">Beijing</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Tianjin">Tianjin</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Shanghai">Shanghai</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Nanjing">Nanjing</a></td>
+      </tr>
+      <tr>
+        <td><img style="display:block;" src="images/beijing.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/tianjin.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/shanghai.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/nanjing.png" width="100%" height="100%"></td>
+      </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Xi%27an">Xi'an</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Xiamen">Xiamen</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Changchun">Changchun</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Harbin">Harbin</a></td>
+    </tr>
+    <tr>
+      <td><img style="display:block;" src="images/xian.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/xiamen.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/changchun.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/harbin.png" width="100%" height="100%"></td>
+    </tr>
+  </table>
+
+  <table>
+  <caption>Traveling in the <a href="https://en.wikipedia.org/wiki/United_States">United States</a></caption>
+      <tr>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Minneapolis">Minneapolis</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Rochester,_Minnesota">Rochester</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Duluth,_Minnesota">Duluth</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Chicago">Chicago</a></td>
+      </tr>
+      <tr>
+        <td><img style="display:block;" src="images/mpls.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/rochester.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/duluth.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/chicago.png" width="100%" height="100%"></td>
+      </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Boston">Boston</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/San_Francisco">San Francisco</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Las_Vegas">Las Vegas</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Seattle">Seattle</a></td>
+    </tr>
+    <tr>
+      <td><img style="display:block;" src="images/boston.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/sanfran.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/vegas.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/seattle.png" width="100%" height="100%"></td>
+    </tr>
+  </table>
+
 * Quincy is also a Ph.D. Candidate:
 
   <table>
