@@ -37,7 +37,7 @@ Research Interests
 * Devising Artificial Intelligence (AI) Methods to Identify Anoamaly Regions from Whole Slide Images (WSIs)
 * Identify Somatic Mutation Status Using Phenotypic Features from WSIs
 
-Academic Research Experience
+Research Experience
 ======
 * Ph.D. Candidate, Division of Computational Pathology & AI, Department of Laboratory Medicine and Pathology, Mayo Clinic, Fall 2019 - May 2023:
   * Deep Learning in Melanoma Pathology:
@@ -85,7 +85,7 @@ Academic Research Experience
     * Applied PDE and Probability Theorem in Imaging Analysis
     * MATLAB Programming used in Imaging Analysis and generated a research paper with LaTeX
 
-Industry Research Experience
+Industry Experience
 ======
 * Computational Pathology Ph.D. Level Summer Intern, Summer 2022:
   * Roche Diagnostics Solution (RDS)
