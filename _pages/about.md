@@ -234,7 +234,7 @@ Facts about Quincy
       <td><img style="display:block;" src="images/sanfran.png" width="100%" height="100%"></td>
       <td><img style="display:block;" src="images/vegas.png" width="100%" height="100%"></td>
       <td><img style="display:block;" src="images/seattle.png" width="100%" height="100%"></td>
-    </tr>
+    </tr> 
   </table>
 
 * Quincy is also a Ph.D. Candidate:
