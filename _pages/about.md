@@ -178,10 +178,10 @@ Facts about Quincy
   <table>
   <caption>Traveling in <a href="https://en.wikipedia.org/wiki/China">China</a></caption>
       <tr>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Beijing">Beijing</a></td>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Tianjin">Tianjin</a></td>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Shanghai">Shanghai</a></td>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Nanjing">Nanjing</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Beijing">Beijing</a>, <a href="https://en.wikipedia.org/wiki/Direct-administered_municipalities_of_China">Direct-administered municipalities of China</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Tianjin">Tianjin</a>, <a href="https://en.wikipedia.org/wiki/Direct-administered_municipalities_of_China">Direct-administered municipalities of China</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Shanghai">Shanghai</a>, <a href="https://en.wikipedia.org/wiki/Direct-administered_municipalities_of_China">Direct-administered municipalities of China</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Nanjing">Nanjing</a>, <a href="https://en.wikipedia.org/wiki/Jiangsu">Jiangsu</a></td>
       </tr>
       <tr>
         <td><img style="display:block;" src="images/beijing.png" width="100%" height="100%"></td>
@@ -193,10 +193,10 @@ Facts about Quincy
 
   <table>
     <tr>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Xi%27an">Xi'an</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Xiamen">Xiamen</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Changchun">Changchun</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Harbin">Harbin</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Xi%27an">Xi'an</a>, <a href="https://en.wikipedia.org/wiki/Fujian">Shaanxi</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Xiamen">Xiamen</a>, <a href="https://en.wikipedia.org/wiki/Fujian">Fujian</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Changchun">Changchun</a>, <a href="https://en.wikipedia.org/wiki/Jilin">Jilin</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Harbin">Harbin</a>, <a href="https://en.wikipedia.org/wiki/Heilongjiang">Heilongjiang</a></td>
     </tr>
     <tr>
       <td><img style="display:block;" src="images/xian.png" width="100%" height="100%"></td>
@@ -209,10 +209,10 @@ Facts about Quincy
   <table>
   <caption>Traveling in the <a href="https://en.wikipedia.org/wiki/United_States">United States</a></caption>
       <tr>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Minneapolis">Minneapolis</a></td>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Rochester,_Minnesota">Rochester</a></td>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Duluth,_Minnesota">Duluth</a></td>
-        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Chicago">Chicago</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Minneapolis">Minneapolis</a>, <a href="https://en.wikipedia.org/wiki/Minnesota">MN</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Rochester,_Minnesota">Rochester</a>, <a href="https://en.wikipedia.org/wiki/Minnesota">MN</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Duluth,_Minnesota">Duluth</a>, <a href="https://en.wikipedia.org/wiki/Minnesota">MN</a></td>
+        <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Chicago">Chicago</a>, <a href="https://en.wikipedia.org/wiki/Illinois">IL</a></td>
       </tr>
       <tr>
         <td><img style="display:block;" src="images/mpls.png" width="100%" height="100%"></td>
@@ -224,10 +224,10 @@ Facts about Quincy
 
   <table>
     <tr>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Boston">Boston</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/San_Francisco">San Francisco</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Las_Vegas">Las Vegas</a></td>
-      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Seattle">Seattle</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Boston">Boston</a>, <a href="https://en.wikipedia.org/wiki/Massachusetts">MA</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/San_Francisco">San Francisco</a>, <a href="https://en.wikipedia.org/wiki/California">CA</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Las_Vegas">Las Vegas</a>, <a href="https://en.wikipedia.org/wiki/Nevada">NV</a></td>
+      <td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Seattle">Seattle</a>, <a href="https://en.wikipedia.org/wiki/Washington_(state)">WA</a></td>
     </tr>
     <tr>
       <td><img style="display:block;" src="images/boston.png" width="100%" height="100%"></td>
