@@ -283,4 +283,3 @@ Research & Life Partners
         <td><img style="display:block;" src="images/leena.png" width="100%" height="100%"></td>
       </tr>
     </table>
-  
