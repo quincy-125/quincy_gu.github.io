@@ -275,11 +275,11 @@ Research & Life Partners
 
   <table>
       <tr>
+        <td style="text-align:center">Qiuqi, G. life partner (one of the most important people in my life), Female, birth date October, 1998</td>
         <td style="text-align:center">Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>, born in June 2021</td>
-        <td style="text-align:center">Girlfriend, Female, Pending, birth date currently is not available</td>
       </tr>
       <tr>
+        <td><img style="display:block;" src="images/gf_qqg.gif" width="100%" height="100%"></td>
         <td><img style="display:block;" src="images/leena.png" width="100%" height="100%"></td>
-        <td><img style="display:block;" src="images/kiss_love.gif" width="100%" height="100%"></td>
       </tr>
     </table>
