@@ -27,7 +27,7 @@ Education
 
 Award 
 ======
-* [Pathology Informatics 2021 Summit Trainee Award](https://www.pathologyinformatics.org/travel-awards), 2021:
+* Pathology Informatics 2021 Summit Trainee Award, 2021:
   * Association for Pathology Informatics
 * Outstanding Poster Award at 2021 Mayo Clinic BMEP Annual Summer Research Symposium, 2021:
   * Department of Physiology and Biomedical Engineering, Mayo Clinic
