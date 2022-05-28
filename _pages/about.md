@@ -280,7 +280,7 @@ Research & Life Partners
         <td style="text-align:center">Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>, born in June 2021</td>
       </tr>
       <tr> 
-        <td><img style="display:block;" src="images/qiuqi_gao.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/qiuqi_gao.jpg" width="100%" height="100%"></td>
         <td><img style="display:block;" src="images/cisco.png" width="100%" height="100%"></td>
         <td><img style="display:block;" src="images/leena.png" width="100%" height="100%"></td>
       </tr>
