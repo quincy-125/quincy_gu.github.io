@@ -269,7 +269,7 @@ Facts about Quincy
     </tr>
   </table>
 
- 
+
 Research & Life Partners
 ======
 
