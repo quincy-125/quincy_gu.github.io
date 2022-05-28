@@ -274,12 +274,15 @@ Research & Life Partners
 ======
 
   <table>
+      <caption>My Families</caption>
       <tr>
-        <td style="text-align:center">Qiuqi, G. life partner (one of the most important people in my life), Female, birth date October, 1998</td>
+        <td style="text-align:center">Qiuqi, Gao. Life Partner, birth date October 14th, 1997</td>
+        <td style="text-align:center">Cisco, Male, <a href="ragdoll show">Ragdoll</a>, born in July 2019</td>
         <td style="text-align:center">Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>, born in June 2021</td>
       </tr>
       <tr> 
-        <td><img style="display:block;" src="images/gf_qqg.gif" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/qiuqi_gao.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/cisco.png" width="100%" height="100%"></td>
         <td><img style="display:block;" src="images/leena.png" width="100%" height="100%"></td>
       </tr>
     </table>
