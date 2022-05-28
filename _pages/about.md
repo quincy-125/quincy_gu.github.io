@@ -280,7 +280,7 @@ Research & Life Partners
       <tr> 
         <td><img style="display:block;" src="images/qiuqi_gao.jpg" width="100%" height="100%"></td>
       </tr>
-    </table>
+  </table>
 
   <table style="table-layout:fixed;">
     <tr>
