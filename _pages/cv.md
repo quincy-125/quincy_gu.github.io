@@ -27,21 +27,28 @@ Education
 </table>
 
 <table>
-<caption>Ph.D. Thesis Committee</caption>
+<caption>Ph.D. Thesis Committee<br>Mayo Clinic Faculty Members<br></caption>
   <tr>
     <td style="text-align:center"><a href="https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574">Steven N., Hart, Ph.D.</a></td>
     <td style="text-align:center"><a href="https://www.mayo.edu/research/faculty/erickson-bradley-j-m-d-ph-d/bio-00077505">Bradley J., Erickson, M.D., Ph.D.</a></td>
-    <td style="text-align:center"><a href="https://cse.umn.edu/cs/chad-myers">Chad L., Myers, Ph.D.</a></td>
-    <td style="text-align:center"><a href="https://med.umn.edu/bio/obgyn-faculty/tim-starr">Timothy K., Starr, Ph.D.</a></td>
   </tr>
   <tr>
     <td><img style="display:block;" src="../images/hart.png" width="100%" height="100%"></td>
     <td><img style="display:block;" src="../images/erickson.jpg" width="100%" height="100%"></td>
+  </tr>
+</table>
+
+<table>
+<caption>Ph.D. Thesis Committee<br>University of Minnesota - Twin Cities Faculty Members<br></caption>
+  <tr>
+    <td style="text-align:center"><a href="https://cse.umn.edu/cs/chad-myers">Chad L., Myers, Ph.D.</a></td>
+    <td style="text-align:center"><a href="https://med.umn.edu/bio/obgyn-faculty/tim-starr">Timothy K., Starr, Ph.D.</a></td>
+  </tr>
+  <tr>
     <td><img style="display:block;" src="../images/myers.png" width="100%" height="100%"></td>
     <td><img style="display:block;" src="../images/starr.png" width="100%" height="100%"></td>
   </tr>
 </table>
-
 
 Award  
 ======
