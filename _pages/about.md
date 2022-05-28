@@ -276,12 +276,19 @@ Research & Life Partners
   <table style="table-layout:fixed;">
       <tr>
         <td style="text-align:center">Qiuqi, Gao. Life Partner.<br> Birth date October 14th, 1997.<br></td>
-        <td style="text-align:center">Cisco, Male, <a href="ragdoll show">Ragdoll</a>.<br> Born in July 2019.<br></td>
-        <td style="text-align:center">Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>.<br> Born in June 2021.<br></td>
       </tr>
       <tr> 
         <td><img style="display:block;" src="images/qiuqi_gao.jpg" width="100%" height="100%"></td>
-        <td><img style="display:block;" src="images/cisco.png" width="100%" height="100%"></td>
-        <td><img style="display:block;" src="images/leena.JPG" width="100%" height="100%"></td>
       </tr>
     </table>
+
+  <table style="table-layout:fixed;">
+    <tr>
+      <td style="text-align:center">Cisco, Male, <a href="ragdoll show">Ragdoll</a>.<br> Born in July 2019.<br></td>
+      <td style="text-align:center">Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>.<br> Born in June 2021.<br></td>
+    </tr>
+    <tr>
+      <td><img style="display:block;" src="images/cisco.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="images/leena.JPG" width="100%" height="100%"></td>
+    </tr>
+  </table>
