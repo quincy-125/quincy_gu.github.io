@@ -273,7 +273,7 @@ Facts about Quincy
 Research & Life Partners
 ======
 
-  <table>
+  <table style="table-layout:fixed;">
       <tr>
         <td style="text-align:center">Qiuqi, Gao. Life Partner.<br> Birth date October 14th, 1997.<br></td>
         <td style="text-align:center">Cisco, Male, <a href="ragdoll show">Ragdoll</a>.<br> Born in July 2019.<br></td>
