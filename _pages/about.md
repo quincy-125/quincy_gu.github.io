@@ -275,13 +275,13 @@ Research & Life Partners
 
   <table>
       <tr>
-        <td style="text-align:center">Qiuqi, Gao. Life Partner, birth date October 14th, 1997</td>
-        <td style="text-align:center">Cisco, Male, <a href="ragdoll show">Ragdoll</a>, born in July 2019</td>
-        <td style="text-align:center">Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>, born in June 2021</td>
+        <td style="text-align:center">Qiuqi, Gao. Life Partner. </br> Birth date October 14th, 1997. </br></td>
+        <td style="text-align:center">Cisco, Male, <a href="ragdoll show">Ragdoll</a>. </br> Born in July 2019. </br></td>
+        <td style="text-align:center">Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>. </br> Born in June 2021. </br></td>
       </tr>
       <tr> 
         <td><img style="display:block;" src="images/qiuqi_gao.jpg" width="100%" height="100%"></td>
-        <td><img style="display:block;" src="images/cisco.png" width="70%" height="70%"></td>
+        <td><img style="display:block;" src="images/cisco.png" width="100%" height="100%"></td>
         <td><img style="display:block;" src="images/leena.png" width="100%" height="100%"></td>
       </tr>
     </table>
