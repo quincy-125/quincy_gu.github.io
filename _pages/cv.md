@@ -35,7 +35,7 @@ Education
     <td style="text-align:center"><a href="https://med.umn.edu/bio/obgyn-faculty/tim-starr">Timothy K., Starr, Ph.D.</a></td>
   </tr>
   <tr>
-    <td><img style="display:block;" src="../images/hart.jpg" width="100%" height="100%"></td>
+    <td><img style="display:block;" src="../images/hart.png" width="100%" height="100%"></td>
     <td><img style="display:block;" src="../images/erickson.jpg" width="100%" height="100%"></td>
     <td><img style="display:block;" src="../images/myers.png" width="100%" height="100%"></td>
     <td><img style="display:block;" src="../images/starr.jpeg" width="100%" height="100%"></td>
