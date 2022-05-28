@@ -43,7 +43,7 @@ Education
 </table>
 
 
-Award 
+Award  
 ======
 * Pathology Informatics 2021 Summit Trainee Award, 2021:
   * Association for Pathology Informatics
