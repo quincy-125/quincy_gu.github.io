@@ -13,6 +13,7 @@ Education
 ======
 * B.A. in Mathematics, University of Minnesota - Twin Cities, 2019
 * Ph.D in Biomathematics, Bioinformatics, and Computational Biology, University of Minnesota - Twin Cities & Mayo Clinic College of Medicine and Sciences, 2023 (expected)
+
   <table>
     <caption>Ph.D. Advisors</caption>
     <tr>
@@ -41,7 +42,8 @@ Education
     </tr>
   </table>
 
-Award  
+
+Award 
 ======
 * Pathology Informatics 2021 Summit Trainee Award, 2021:
   * Association for Pathology Informatics
