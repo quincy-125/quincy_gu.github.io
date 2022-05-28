@@ -282,6 +282,6 @@ Research & Life Partners
       <tr> 
         <td><img style="display:block;" src="images/qiuqi_gao.jpg" width="100%" height="100%"></td>
         <td><img style="display:block;" src="images/cisco.png" width="100%" height="100%"></td>
-        <td><img style="display:block;" src="images/leena.png" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="images/leena.JPG" width="100%" height="100%"></td>
       </tr>
     </table>
