@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.A. in Mathematics, University of Minnesota - Twin Cities, 2019
-* Ph.D in Biomathematics, Bioinformatics, and Computational Biology, University of Minnesota - Twin Cities & Mayo Clinic College of Medicine and Sciences, 2023 (expected)
+* Ph.D in Biomathematics, Bioinformatics, and Computational Biology, University of Minnesota - Twin Cities & Mayo Clinic College of Medicine and Sciences, 2023 (Expected)
 
 <table>
   <caption>Ph.D. Advisors</caption>
@@ -24,9 +24,7 @@ Education
     <td><img style="display:block;" src="../images/hart.jpg" width="100%" height="100%"></td>
     <td><img style="display:block;" src="../images/myers.png" width="100%" height="100%"></td>
   </tr>
-</table>
 
-<table>
   <caption>Ph.D. Thesis Committee</caption>
   <tr>
     <td style="text-align:center">Steven N., Hart, Ph.D. <a href="https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574"></td>
