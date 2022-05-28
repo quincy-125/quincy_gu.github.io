@@ -11,18 +11,16 @@ redirect_from:
 
 Education
 ======
-* B.A. in Mathematics, University of Minnesota - Twin Cities, 2019
-* Ph.D in Biomathematics, Bioinformatics, and Computational Biology, University of Minnesota - Twin Cities & Mayo Clinic College of Medicine and Sciences, 2023 (Expected)
 
   <table>
-    <tr>
-      <td style="text-align:center">Steven N., Hart, Ph.D.<a href="https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574"></td>
-      <td style="text-align:center">Chad L., Myers, Ph.D.<a href="https://cse.umn.edu/cs/chad-myers"></td>
-    </tr>
-    <tr>
-      <td><img style="display:block;" src="../images/hart.jpg" width="100%" height="100%"></td>
-      <td><img style="display:block;" src="../images/myers.png" width="100%" height="100%"></td>
-    </tr>
+      <tr>
+        <td style="text-align:center">Steven N., Hart, Ph.D.<a href="https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574"></td>
+        <td style="text-align:center">Chad L., Myers, Ph.D.<a href="https://cse.umn.edu/cs/chad-myers"></td>
+      </tr>
+      <tr>
+        <td><img style="display:block;" src="../images/hart.jpg" width="100%" height="100%"></td>
+        <td><img style="display:block;" src="../images/myers.png" width="100%" height="100%"></td>
+      </tr>
   </table>
 
   <table>
@@ -39,6 +37,10 @@ Education
       <td><img style="display:block;" src="../images/starr.jpeg" width="100%" height="100%"></td>
     </tr>
   </table>
+* B.A. in Mathematics, University of Minnesota - Twin Cities, 2019
+* Ph.D in Biomathematics, Bioinformatics, and Computational Biology, University of Minnesota - Twin Cities & Mayo Clinic College of Medicine and Sciences, 2023 (Expected)
+
+  
 
 
 Award 
