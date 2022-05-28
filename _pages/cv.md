@@ -15,30 +15,32 @@ Education
 * Ph.D in Biomathematics, Bioinformatics, and Computational Biology, University of Minnesota - Twin Cities & Mayo Clinic College of Medicine and Sciences, 2023 (Expected)
 
 <table>
-  <caption>Ph.D. Advisors</caption>
-  <tr>
-    <td style="text-align:center">Steven N., Hart, Ph.D. <a href="https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574"></td>
-    <td style="text-align:center">Chad L., Myers, Ph.D. <a href="https://cse.umn.edu/cs/chad-myers"></td>
-  </tr>
-  <tr>
-    <td><img style="display:block;" src="../images/hart.jpg" width="100%" height="100%"></td>
-    <td><img style="display:block;" src="../images/myers.png" width="100%" height="100%"></td>
-  </tr>
+    <caption>Ph.D. Advisors</caption>
+    <tr>
+      <td style="text-align:center">Steven N., Hart, Ph.D. <a href="https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574"></td>
+      <td style="text-align:center">Chad L., Myers, Ph.D. <a href="https://cse.umn.edu/cs/chad-myers"></td>
+    </tr>
+    <tr>
+      <td><img style="display:block;" src="../images/hart.jpg" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="../images/myers.png" width="100%" height="100%"></td>
+    </tr>
+  </table>
 
-  <caption>Ph.D. Thesis Committee</caption>
-  <tr>
-    <td style="text-align:center">Steven N., Hart, Ph.D. <a href="https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574"></td>
-    <td style="text-align:center">Bradley J., Erickson, M.D., Ph.D. <a href="https://www.mayo.edu/research/faculty/erickson-bradley-j-m-d-ph-d/bio-00077505"></td>
-    <td style="text-align:center">Chad L., Myers, Ph.D. <a href="https://cse.umn.edu/cs/chad-myers"></td>
-    <td style="text-align:center">Timothy K., Starr, Ph.D. <a href="https://med.umn.edu/bio/obgyn-faculty/tim-starr"></td>
-  </tr>
-  <tr>
-    <td><img style="display:block;" src="../images/hart.jpg" width="100%" height="100%"></td>
-    <td><img style="display:block;" src="../images/erickson.jpg" width="100%" height="100%"></td>
-    <td><img style="display:block;" src="../images/myers.png" width="100%" height="100%"></td>
-    <td><img style="display:block;" src="../images/starr.jpeg" width="100%" height="100%"></td>
-  </tr>
-</table>
+<table>
+    <caption>Ph.D. Thesis Committee</caption>
+    <tr>
+      <td style="text-align:center">Steven N., Hart, Ph.D. <a href="https://www.mayo.edu/research/faculty/hart-steven-n-ph-d/bio-20124574"></td>
+      <td style="text-align:center">Bradley J., Erickson, M.D., Ph.D. <a href="https://www.mayo.edu/research/faculty/erickson-bradley-j-m-d-ph-d/bio-00077505"></td>
+      <td style="text-align:center">Chad L., Myers, Ph.D. <a href="https://cse.umn.edu/cs/chad-myers"></td>
+      <td style="text-align:center">Timothy K., Starr, Ph.D. <a href="https://med.umn.edu/bio/obgyn-faculty/tim-starr"></td>
+    </tr>
+    <tr>
+      <td><img style="display:block;" src="../images/hart.jpg" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="../images/erickson.jpg" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="../images/myers.png" width="100%" height="100%"></td>
+      <td><img style="display:block;" src="../images/starr.jpeg" width="100%" height="100%"></td>
+    </tr>
+  </table>
 
 
 Award 
