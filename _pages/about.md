@@ -284,7 +284,7 @@ Research & Life Partners
 
   <table style="table-layout:fixed;">
     <tr>
-      <td style="text-align:center">Cisco, Male, <a href="ragdoll show">Ragdoll</a>.<br> Born in July 2019.<br></td>
+      <td style="text-align:center">Cisco, Male, <a href="https://en.wikipedia.org/wiki/Ragdoll">Ragdoll</a>.<br> Born in July 2019.<br></td>
       <td style="text-align:center">Leena, Female, <a href="https://en.wikipedia.org/wiki/Pembroke_Welsh_Corgi">Pembroke Welsh Corgi</a>.<br> Born in June 2021.<br></td>
     </tr>
     <tr>
