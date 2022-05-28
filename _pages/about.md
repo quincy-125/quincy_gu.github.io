@@ -274,7 +274,6 @@ Research & Life Partners
 ======
 
   <table>
-      <caption>My Families</caption>
       <tr>
         <td style="text-align:center">Qiuqi, Gao. Life Partner, birth date October 14th, 1997</td>
         <td style="text-align:center">Cisco, Male, <a href="ragdoll show">Ragdoll</a>, born in July 2019</td>
