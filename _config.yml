@@ -11,9 +11,9 @@ title                    : "Quincy Gu Personal Website"
 title_separator          : "-"
 name                     : &name 
 description              : &description 
-url                      : https://quincy-125.github.io/qg.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://quincy-125.github.io/quincy_gu.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "quincy-125/qg11112334.github.io"
+repository               : "quincy-125/quincy_gu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
